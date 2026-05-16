@@ -39,9 +39,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/coderichardson
     - https://github.com/coderichardson
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/corichardson/
 
 # Site Verification Settings
 webmaster_verifications:
