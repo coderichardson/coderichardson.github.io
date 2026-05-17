@@ -22,7 +22,7 @@ Let's run through an example:
 2. Upon reaching Google's email server, Google's server checks the domain contained in the envelope sender (in the header of the email).
 3. Google's server checks the DNS records of email.apple.com and determines that the sending IP address (sending email server) is authorized to send email from email.apple.com. Hence we can see in the email header spf=pass along with the IP address of the sending email server, and the statement that the IP address is a permitted sender.  
 
-   [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFkWIl_4GUhYEVBjj2t2HAIpIt0xLnTdFJPVVfv7CZzXW2ZVan11ic05AOiy9Vkf6KxHClH2IwXYwePWu01bfv8DxQ2fMN7FzEChCMwTKcJZ4F07Prwt4AyPe2kgxy18XCUapkmaddGsLzXyaq5Ulx_0CrYRsaS_BRaWwrXuD5jPuq5d-urH7jUGf29Q/s16000/SPF-Pass2.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFkWIl_4GUhYEVBjj2t2HAIpIt0xLnTdFJPVVfv7CZzXW2ZVan11ic05AOiy9Vkf6KxHClH2IwXYwePWu01bfv8DxQ2fMN7FzEChCMwTKcJZ4F07Prwt4AyPe2kgxy18XCUapkmaddGsLzXyaq5Ulx_0CrYRsaS_BRaWwrXuD5jPuq5d-urH7jUGf29Q/s1414/SPF-Pass2.png)
+   ![SPF Pass](/assets/img/posts/spf-dkim-and-dmarc-explained/03.png)
 4. As a result of SPF passing, Google's email server will not mark the email as spam ultimately helping it reach your inbox. This isn't the only check it will perform but we'll get to the rest later.
 
 So what exactly is the SPF record that Google checks to ensure that the specified IP address / domain is a permitted sender?
