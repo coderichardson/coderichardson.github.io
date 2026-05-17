@@ -6,8 +6,7 @@ tags:
   - "Cybersecurity"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkvRc4wEgyTFLAVQVUF2sGTRPCeNhfsdZYaMpdSmMF1Q__YqmCFWhhSDDfUoGTaLjGp7XjNHtMZI_Ub3xAvjLqLQUDndzggZvBHqqNQOz3P-ucs_UGtVIdVT5FS05DKfdU4PHU-YDKr99lga_rpNdC0YPam1L1PwcloWHXm5cGLzoYFOu29P-BeZZea2zt/w640-h360/cyber-criminal-in-front-of-computer-screens.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkvRc4wEgyTFLAVQVUF2sGTRPCeNhfsdZYaMpdSmMF1Q__YqmCFWhhSDDfUoGTaLjGp7XjNHtMZI_Ub3xAvjLqLQUDndzggZvBHqqNQOz3P-ucs_UGtVIdVT5FS05DKfdU4PHU-YDKr99lga_rpNdC0YPam1L1PwcloWHXm5cGLzoYFOu29P-BeZZea2zt/s2309/cyber-criminal-in-front-of-computer-screens.jpg)
-
+![](/assets/img/posts/cybersecurity-fundamentals/01.jpg)
 While some hacks truly are [sophisticated, nation-state attacks](https://thehackernews.com/2023/12/most-sophisticated-iphone-hack-ever.html#:~:text=The%20exploitation%20activity%20involved%20the,goal%20of%20gathering%20sensitive%20information.), many more are the result of simpler exploits or just social engineering. After the details of such a compromise are released, people comment about how organizations should be doing at least the "basics" or "fundamentals." So what are the fundamentals? And at what point do you cross over into intermediate or expert practices?
 
 I have my opinion, but let me first share a couple official lists:
