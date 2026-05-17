@@ -18,10 +18,9 @@ Security Groups are a fundamental security feature in AWS. They help protect EC2
 
 Security Groups operate similarly to a firewall by limiting the flow of traffic. Security Groups do this to and from whatever they are attached to (technically they attach to network interfaces but those are attached to the things in AWS you're looking to protect). By default, Security Groups allow all outbound traffic and deny all inbound traffic. You then create or delete rules, but any rules created are Allow rules. In other words, there are no Deny rules. Access is granted to a specific CIDR range (e.g. 192.168.1.10/32, 192.168.1.1/24) or to another Security Group.
 
-|  |
-| --- |
-|  |
-| Security Group showing HTTP and SSH traffic from any source being allowed inbound. |
+![Security Group showing HTTP and SSH traffic from any source being allowed inbound](/assets/img/posts/aws-security-security-groups-and/02.png)
+
+*Security Group showing HTTP and SSH traffic from any source being allowed inbound.*
 
 There are a lot of rules surrounding Security Groups and it's important to be aware of them. I'll highlight some of them below, but refer to the [AWS documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) for a comprehensive list.
 
@@ -47,10 +46,9 @@ Another fundamental AWS security feature -- Network ACLs (NACLs). Where Security
 - A network ACL contains a numbered list of rules. We evaluate the rules in order, starting with the lowest numbered rule, to determine whether traffic is allowed in or out of any subnet associated with the network ACL. The highest number that you can use for a rule is 32766. We recommend that you start by creating rules in increments (for example, increments of 10 or 100) so that you can insert new rules where you need to later on.
 - Your VPC automatically comes with a modifiable default network ACL. By default, it allows all inbound and outbound IPv4 traffic and, if applicable, IPv6 traffic.
 
-|  |
-| --- |
-|  |
-| Network ACL showing inbound and outbound rules. |
+![Network ACL showing inbound and outbound rules](/assets/img/posts/aws-security-security-groups-and/03.png)
+
+*Network ACL showing inbound and outbound rules.*
 
 ### Conclusion
 
