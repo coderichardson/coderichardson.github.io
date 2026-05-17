@@ -8,8 +8,7 @@ tags:
   - "Cybersecurity"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiWrZ6VHHjh4kzh2ljPwYwuihzagWCSpcdPY5aI7LiEv4pQ82ql7-Zq0CW6LywH6n4bhmtX0EvuOfvjeKC7NCju0dGcVh6NxltTAVEzkPL04G3zrBiZqWtRgYuIw_i6FguPwSda8t8bRo5prQ2WeMQD2ce-55OiPucGcFRG62l5tqd7A4hA8vBalnfjr3S/w640-h426/6a809520-bea7-4585-9dda-275d213cc310.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiWrZ6VHHjh4kzh2ljPwYwuihzagWCSpcdPY5aI7LiEv4pQ82ql7-Zq0CW6LywH6n4bhmtX0EvuOfvjeKC7NCju0dGcVh6NxltTAVEzkPL04G3zrBiZqWtRgYuIw_i6FguPwSda8t8bRo5prQ2WeMQD2ce-55OiPucGcFRG62l5tqd7A4hA8vBalnfjr3S/s1536/6a809520-bea7-4585-9dda-275d213cc310.png)
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/01.png)
 [Certification Authority Browser Forum (CA/Browser Forum)](https://cabforum.org/) is "a voluntary gathering of Certificate Issuers and suppliers of Internet browser software and other applications that use certificates (Certificate Consumers)." This group has determined that SSL/TLS certificates will soon be required to expire every 47 days (or less). Compared to the industry standards of even a few years ago, this is a significant change in requirements.   
   
 
@@ -39,24 +38,19 @@ I've listed the steps below that are specific to my scenario, but some implement
 
 6. Let's Encrypt signs and returns the certificate. certbot saves it to disk and cleans up the TXT record.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKfv9wyBOTmxW7w4RZw7W_x2xvqX9FCT8BTMOgmIV9nF0yExtqeikftdwtZtnT3WTxtd-eBwoX5ArLe7NjKYR-LMisS5M_aSr19q6ZARIPfSZJKG3Vc2qOGMAnua7aHWQGt7zd_TT27nItKLT73zY3ZsgJHbK3hwwU-9Yu0sJqhCD9eXuQT6EbabvP6Eqz/w640-h522/ACME%20Protocol%20Data%20Flow%20Diagram.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKfv9wyBOTmxW7w4RZw7W_x2xvqX9FCT8BTMOgmIV9nF0yExtqeikftdwtZtnT3WTxtd-eBwoX5ArLe7NjKYR-LMisS5M_aSr19q6ZARIPfSZJKG3Vc2qOGMAnua7aHWQGt7zd_TT27nItKLT73zY3ZsgJHbK3hwwU-9Yu0sJqhCD9eXuQT6EbabvP6Eqz/s1983/ACME%20Protocol%20Data%20Flow%20Diagram.png)
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/02.png)
 ### DNS, Cloudflare, and API Key Setup
 
 Since DNS plays a central role in the ACME protocol (at least in the DNS-01 validation implementation), we need to get it setup. For convenience, in my case, I registered a test domain with Cloudflare and am also choosing to control DNS with Cloudflare. These functions can be handled independently if desired.
 
 In order to allow LetsEncrypt to issue certificates for my domain, a Certificate Authority Authorization (CAA) record must be created in DNS. Select the CAA record type and enter the certificate authority's domain (letsencrypt.org) and you are done.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwQ-u7EJ3G9tlGONSSL2TDWgrDxI9U_7T6sHno1HF7H_lUJuh5BgNQBqIQYSbW-1ICHseSxIYezwd4Ll38xCPbGkvfNdniLyQKHx7PYwh26zCnzHc0TgtN_WQ5O55-czZRc_iPFVZ__4srKBnWmx4rqZnIJuE8VZK4mM_7p-S0psgCduEic5LRBDUfSvLu/w640-h181/dns-records.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwQ-u7EJ3G9tlGONSSL2TDWgrDxI9U_7T6sHno1HF7H_lUJuh5BgNQBqIQYSbW-1ICHseSxIYezwd4Ll38xCPbGkvfNdniLyQKHx7PYwh26zCnzHc0TgtN_WQ5O55-czZRc_iPFVZ__4srKBnWmx4rqZnIJuE8VZK4mM_7p-S0psgCduEic5LRBDUfSvLu/s2851/dns-records.png)
-
-  
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/03.png)
 This is what it looks like completed in Cloudflare.
 
 Next is setting up an API Key. While we don't need this quite yet, it makes sense to generate while we're in Cloudflare anyway. This API Key should be scoped to just the domain we are automating with only "DNS Write" permissions.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIH0b937XiYe9GTAX7OyWSDHCOTGxBONzfQ4y-aUTgiJBNkleAPKFS7Pl4s-yurufqOrnNzH2OEfz0wtTCgzOYelXoJr_8zBtkyr-dJfKqztnadaSWv0rCNsz1nPwC3KBY0JbQCHm5bUe6P84qMxDVxSTYg44e8FTLRCn2FK88fXa0YeyqFWrZ1RZUA-EC/w640-h370/API-token-setup.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIH0b937XiYe9GTAX7OyWSDHCOTGxBONzfQ4y-aUTgiJBNkleAPKFS7Pl4s-yurufqOrnNzH2OEfz0wtTCgzOYelXoJr_8zBtkyr-dJfKqztnadaSWv0rCNsz1nPwC3KBY0JbQCHm5bUe6P84qMxDVxSTYg44e8FTLRCn2FK88fXa0YeyqFWrZ1RZUA-EC/s2070/API-token-setup.png)
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/04.png)
 Take note of your API key once provided and then we are done here. Time to move on to certbot!
 
 ### Installing and Configuring Certbot
@@ -81,9 +75,7 @@ sudo snap connect certbot:plugin certbot-dns-cloudflare
 
 Finally, a quick test to make sure the plugin shows as installed using certbot plugins
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhns7MFgdBArJ3VZObFaSeV6lpskMe25QrlcrEExMRRPYXLgmeABoeNQaZMrHielP9SAQyIMb_8dgyEBIlh0W_L9ilALQU6c_cyW0MM4pQFy2BMXWtnVZ2lgnK0Q74bvuvXfmZFmKnoUoStkpyp7X8SSrxd3rfr3sMWZ30B-9tvi-YmMicgWKs4VjjEzH_N/w640-h256/certbot-plugins.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhns7MFgdBArJ3VZObFaSeV6lpskMe25QrlcrEExMRRPYXLgmeABoeNQaZMrHielP9SAQyIMb_8dgyEBIlh0W_L9ilALQU6c_cyW0MM4pQFy2BMXWtnVZ2lgnK0Q74bvuvXfmZFmKnoUoStkpyp7X8SSrxd3rfr3sMWZ30B-9tvi-YmMicgWKs4VjjEzH_N/s2123/certbot-plugins.png)
-
-  
+![](/assets/img/posts/automating-tls-certificate-renewal-with/05.png)
 Next we need to give certbot the API key to be able to connect to Cloudflare. While other methods can and should be considered (storage in a secret vault for example), for now we are going to store the API key in a permissions-locked ini file.
 
 ```bash
@@ -105,10 +97,7 @@ dns_cloudflare_api_token = YOUR_TOKEN_HERE
 chmod 600 ~/.secrets/certbot/cloudflare.ini
 ```
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3nCnJwxdFM_zZwZ9rqmOz0IUAjG0x8dsGWzDMddu89fDV935D_Gtzl7zbJT74Uf9RocOmWaj2MbMgY-OMVdHZ9nbERC9okkgejQrPD5vBQJZEkKGlIzLuED7v_Kx32Hy2fG335iZyQwE7mQyJpsMsvVHAHSyBIjtMOUNm8kL_58ycQ5HMAM2iORPBNqwk/w640-h120/permissions.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3nCnJwxdFM_zZwZ9rqmOz0IUAjG0x8dsGWzDMddu89fDV935D_Gtzl7zbJT74Uf9RocOmWaj2MbMgY-OMVdHZ9nbERC9okkgejQrPD5vBQJZEkKGlIzLuED7v_Kx32Hy2fG335iZyQwE7mQyJpsMsvVHAHSyBIjtMOUNm8kL_58ycQ5HMAM2iORPBNqwk/s1419/permissions.png)
-
-  
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/06.png)
 Now we're ready for certificate issuance and renewal.
 
 ### Certificate Issuance and Automatic Certificate Renewal
@@ -126,10 +115,7 @@ sudo certbot certonly \
   --non-interactive
 ```
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYkat5wBdim_6Y2jO_Pbo7nVXYJ8IffcbdwaWZOkyRtrGAEVM68iJvaV40ha9wRb76LN36jXY14HOcEOHeivXWTc-3ubuhpOtS1us-FnZGPUgmS_2hEt20dxCp99WOtcHCowJumtWSmdo3MNTsdHH3JnpLTmSXAbvndnU-x8NBXQDaRjchFnQTyeYRYZic/w640-h328/manual-issuance.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYkat5wBdim_6Y2jO_Pbo7nVXYJ8IffcbdwaWZOkyRtrGAEVM68iJvaV40ha9wRb76LN36jXY14HOcEOHeivXWTc-3ubuhpOtS1us-FnZGPUgmS_2hEt20dxCp99WOtcHCowJumtWSmdo3MNTsdHH3JnpLTmSXAbvndnU-x8NBXQDaRjchFnQTyeYRYZic/s2420/manual-issuance.png)
-
-  
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/07.png)
 You can see the full chain and private key saved to my system. Note that the --expand flag was used in my session because I had an existing certificate to be replaced along with a wildcard. If it's your first time running this command you won't have to include this flag.
 
 Now for the whole point of this...automating renewal. Since we installed via snap, a timer is installed by default along with certbot. I'll check the status of my timer now.
@@ -138,8 +124,7 @@ Now for the whole point of this...automating renewal. Since we installed via sna
 sudo systemctl status snap.certbot.renew.timer
 ```
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO3KDy1U3BKCPrPTA4xpnI92eepp07CLa9g8fcrBQN4kB5dm3arWtbl78jhQTsGcsI251zX2O2OMQsekFujdUj6S6F_eu3WRIQf57VdaRSnHZ97qHJ5spfojemDVOJtC0F-NnYPvJhngGmKiTth9WwbbHDn99JBz5fqesAQ0f7VzTjY7BXFTlM4U_YGMWs/w640-h106/certbot-timer.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO3KDy1U3BKCPrPTA4xpnI92eepp07CLa9g8fcrBQN4kB5dm3arWtbl78jhQTsGcsI251zX2O2OMQsekFujdUj6S6F_eu3WRIQf57VdaRSnHZ97qHJ5spfojemDVOJtC0F-NnYPvJhngGmKiTth9WwbbHDn99JBz5fqesAQ0f7VzTjY7BXFTlM4U_YGMWs/s2520/certbot-timer.png)
-
+![](/assets/img/posts/automating-tls-certificate-renewal-with/08.png)
 The timer runs certbot twice daily. Each run checks all certificates in /etc/letsencrypt/renewal/ and renews any that are within 30 days of expiry. Certbot generated a renewal config file for your domain when it issued the cert:
 
 ```text
@@ -154,7 +139,5 @@ Finally, to test and confirm that automatic renewal is setup to succeed we run t
 sudo certbot renew --dry-run
 ```
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDnSURdvdSIAmOhyeqTkdH6DfBe0SAc59c6G2KCk-dkI6z-FIuO9tD-77mXkog5j68hXHskvzlVKWVD4aXIQhXBmGkxCL5si_tH2YEOZ_lNcaT_LFQoZsy2hVpzAvCLpeHT6PqQwTEjpzPYb-IdLLbCwJMHg2Xprccuy6xasuDFANndj_L0PRsObv64aL/w640-h180/dry-run.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDnSURdvdSIAmOhyeqTkdH6DfBe0SAc59c6G2KCk-dkI6z-FIuO9tD-77mXkog5j68hXHskvzlVKWVD4aXIQhXBmGkxCL5si_tH2YEOZ_lNcaT_LFQoZsy2hVpzAvCLpeHT6PqQwTEjpzPYb-IdLLbCwJMHg2Xprccuy6xasuDFANndj_L0PRsObv64aL/s2350/dry-run.png)
-
-  
+![](/assets/img/posts/automating-tls-certificate-renewal-with/09.png)
 As soon as we see "Congratulations" at the bottom we're all set!
