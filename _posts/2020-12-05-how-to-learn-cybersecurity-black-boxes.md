@@ -18,8 +18,7 @@ When I'm learning something I frequently ask why or how. I usually *have* to ask
 
 Knowing where and when to place a Black Box can be extremely helpful and keep you focused. Understand that there is a process that takes place, you're given some output from it that you need, and can carry on with what you're trying to do.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYUU33m2KtiF1SMRvcjyWjqWaYve7pXgK3IRV7wZ5GFv44Tp-1CJN1o5Ib-hXuA7gdN-WxRUY00kYMFxInJZOgDunPcTCve8815qwdL_lPJuukXh_KaD9azO6QksUIp8pYOgVfAGkI671F/w400-h170/blackbox-3.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYUU33m2KtiF1SMRvcjyWjqWaYve7pXgK3IRV7wZ5GFv44Tp-1CJN1o5Ib-hXuA7gdN-WxRUY00kYMFxInJZOgDunPcTCve8815qwdL_lPJuukXh_KaD9azO6QksUIp8pYOgVfAGkI671F/s510/blackbox-3.jpg)
-
+![](/assets/img/posts/how-to-learn-cybersecurity-black-boxes/01.jpg)
 ## Elephants - How to Learn When There's Too Much To Learn
 
 This one is an extremely popular saying, but I want to include it because it really does help me in the learning process: "How do you eat an elephant? One bite at a time."
@@ -30,8 +29,7 @@ This is true for other certifications (CISSP comes to mind), but it's also impor
 
 Methodical progress is key. The rate will vary from person to person, but eat irregularly and your food goes bad. Eat too much at once and you get sick. Take it a bite at a time.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgms6AG9zPArrWsiZy-O3bZOl_6sZ8d2jxw8yYWqg-A9zIT3pLweQq8RMf5qAKXmT6GuXHlcndZIfitHbs_gTE-eg38JJSWPtOwSLY2S1_HIgz_8lpNSzfgAR2P5cULLthSBHV1imRXa5I6/w400-h341/00e6ca16c81034b31da19e6113ef456b.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgms6AG9zPArrWsiZy-O3bZOl_6sZ8d2jxw8yYWqg-A9zIT3pLweQq8RMf5qAKXmT6GuXHlcndZIfitHbs_gTE-eg38JJSWPtOwSLY2S1_HIgz_8lpNSzfgAR2P5cULLthSBHV1imRXa5I6/s337/00e6ca16c81034b31da19e6113ef456b.jpg)
-
+![](/assets/img/posts/how-to-learn-cybersecurity-black-boxes/02.jpg)
 ## Summary
 
 These concepts go hand-in-hand and have become increasingly useful to me over time. They relieve the feeling of being overwhelmed and help me stay focused on what's important. If you have any advice for what you do when learning something new leave a comment below or feel free to reach out on Twitter!
