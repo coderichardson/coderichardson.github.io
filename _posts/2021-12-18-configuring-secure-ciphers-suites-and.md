@@ -101,10 +101,9 @@ Create a value named **Functions** of type REG\_MULTI\_SZ. This is where you lis
 3. Do not include any spaces.
 4. The cipher suite(s) you want to use are named correctly. This can vary [depending on your Windows OS](https://security.stackexchange.com/questions/203128/what-are-the-p-values-in-some-cipher-string) (mostly around Elliptical Curve cipher suites as Windows 10/2016 no longer requires \_P256, etc., designations on EC suites while 2012R2 and before does).
 
-|  |
-| --- |
-|  |
-| Credit: Microsoft  (https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) |
+![Credit: Microsoft](https://blogger.googleusercontent.com/img/a/AVvXsEgR5a9ouhsPeQJeWFcSWEGsTQX_IRJMxL_uw9k1Mw6sorzZVXAmEGxOb23MtqEC19kUkg9jbeFnk7R_SGAU2l8oOMrVPZtS-iym7-891h-J69TExqhAeio3kXtfwOTunqfloTmkliGcAWQAY0z-2yDvPGOMRd4orGQjhCWR2CeAiZmVKVJihMdLZNehZw=w640-h360)
+
+*Credit: Microsoft (https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)*
 
 ### Final Thoughts
 

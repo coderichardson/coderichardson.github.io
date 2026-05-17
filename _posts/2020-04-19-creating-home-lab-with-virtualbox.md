@@ -17,10 +17,9 @@ Let's get started.
 
 First we need to download and install VirtualBox. Head over to <https://www.virtualbox.org/wiki/Downloads> and download the package for your operating system.
 
-|  |
-| --- |
-|  |
-| *VirtualBox Download Page* |
+![VirtualBox Download Page](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ27J5qIRNz2Bh4VdhAcFUoS2sa-OCb8Y0JJoz1qaQn2yW-PMjQSiMu_ZVd-ji9hpHhVVNfUCRPc8CBNLfQjQCeXXlPsSTKxJSCsqXH8Dd20F6pOo-BprFDRgN0XzVzOfuCfUSWj2Gnshg/s640/VirtualBox-Download.png)
+
+*VirtualBox Download Page*
 
 While I install all components available, the ones necessary for this guide are:
 
@@ -35,17 +34,15 @@ While I install all components available, the ones necessary for this guide are:
 
 While you can load any ISO you want, I'm going to stick with CentOS. Visit <https://www.centos.org/download/>, choose **CentOS Linux DVD ISO**, and download the ISO from your favorite mirror.
 
-|  |
-| --- |
-|  |
-| *CentOS Linux DVD ISO* |
+![CentOS Linux DVD ISO](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDePQAmFJ0sUtLxshLfB1nvjX3w9SqwQikwI3wMdndJW3kc0FeSX6nM1OgX1VFp621BbnYFKbEuzfGaupvEXFrKRLaaPehyphenhyphenz9ui7fJ9V7VcVUw_Mt_SNNORuoEdc_1N-5H31bcOiYRI7CJ/s640/Download-CentOS.jpg)
+
+*CentOS Linux DVD ISO*
 
   
 
-|  |
-| --- |
-|  |
-| *Select Favorite Mirror Link* |
+![Select Favorite Mirror Link](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTAZJNw63c0wsFYsULc8Gv40Ti7FS3-5JZqH7qNLLbrPDOqepKfF13rdfa_mH_Dw5P4KvpbMZ5oxtFf1jIUizy5_rfFQLVgrxoH2v1A-Dqa4845o-h2357lCD2Di5KBcX86Yx6Z6o4mRTz/s640/Mirror-Links.jpg)
+
+*Select Favorite Mirror Link*
 
 ### 
 

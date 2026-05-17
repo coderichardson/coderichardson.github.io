@@ -11,10 +11,9 @@ Will US businesses that were previously against it now let sick employees work f
 
 But what has allowed so many businesses to shift to the work from home model (some faster than others of course)? Years of [migration to the cloud](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-forecasts-worldwide-public-cloud-revenue-to-grow-17-percent-in-2020) and consolidation of services.
 
-|  |
-| --- |
-|  |
-| *Chart: ZDNet* |
+![Chart: ZDNet](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTH5iVCryWDaYAujgswhf5je9j1CawhvH-pHw-ubW_QFkPqE20yIoSl6ic3VqbQ8Znx8_anblIlYiuOPRD96Z06kYy_QX824CY9tYlOaG6xQ13spzoJ-qLjtByXfzAzmoAEK73bLr6YEUo/s640/rightscale-public-cloud.png)
+
+*Chart: ZDNet*
 
 VPN appliances overwhelmed with connections just to send/receive email? With only an Internet connection you can connect to Microsoft Office 365 and allow VPN connections to provide other services.
 
