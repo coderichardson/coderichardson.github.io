@@ -68,8 +68,7 @@ DKIM is an authentication mechanism with many similarities SPF. It verifies that
 This authentication design provides not just authenticity but integrity of the email as the hashes would not match if the email was altered in transit.  
   
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwuqW8FXYaHIgX5XYQaNPeZHGpmvQP4IeNf69dcs7oJLdyMUIgCjfPEh8wdq9IryW9_kk_69eULZtVj1N5DRG99GQ_1JFsHdfyw-zW1CFEai2TbVTI7Z8OshHlqc0V7XOcqXi9ji28vkAZl4wXr0G71q8lIQThnJYpHJDYyp94wrZix2Dd91vKyECKjg/s16000/DKIM-Details.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwuqW8FXYaHIgX5XYQaNPeZHGpmvQP4IeNf69dcs7oJLdyMUIgCjfPEh8wdq9IryW9_kk_69eULZtVj1N5DRG99GQ_1JFsHdfyw-zW1CFEai2TbVTI7Z8OshHlqc0V7XOcqXi9ji28vkAZl4wXr0G71q8lIQThnJYpHJDYyp94wrZix2Dd91vKyECKjg/s1370/DKIM-Details.png)
-
+![](/assets/img/posts/spf-dkim-and-dmarc-explained/01.png)
 Below we can see a breakdown of what some of the values in the DKIM signature are:
 
 ```text
@@ -110,10 +109,7 @@ Let's run through our example from email.apple.com to see what DMARC does:
 
 This is how email should flow in a relatively simple case. We'll look at what happens if things go wrong in just a bit.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggDXi50NoTIgnPj1cyWqhoTGFb62OKNtGChalG4hPoY1tNhbmYyCo3pK_H8BfaCFakp6S6b972tR2rgchjP_wIwnLmDqAh4FZlayjgrX_EaQh5PSTuaoHV70cfphQY7kFns8kUAKfp9cJKfSxQ7GcbbqqK0bl0kbvcNfw734L_4b2JOTSuvIAkPXI5nA/s16000/DMARC.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggDXi50NoTIgnPj1cyWqhoTGFb62OKNtGChalG4hPoY1tNhbmYyCo3pK_H8BfaCFakp6S6b972tR2rgchjP_wIwnLmDqAh4FZlayjgrX_EaQh5PSTuaoHV70cfphQY7kFns8kUAKfp9cJKfSxQ7GcbbqqK0bl0kbvcNfw734L_4b2JOTSuvIAkPXI5nA/s1365/DMARC.png)
-
-  
-
+![](/assets/img/posts/spf-dkim-and-dmarc-explained/02.png)
 Just like SPF and DKIM, you can view the header of an email to see if DMARC passed or failed, along with additional detail about the domain's DMARC policy.
 
 Details that aren't available in the email header but are available using MxToolbox's DMARC tool are shown in the table above.
