@@ -19,10 +19,9 @@ This is one of the most powerful certificate formats as a single .pem file can c
 
 The easiest way to remember what makes PEM different is that it's really just a file with base64 encoded data that can represent up to and including everything you need / obtain from your CA for your certificate chain to be complete. Or you may find just a couple of the items in the chain. Only way to know what's in it is open it and find out.
 
-|  |
-| --- |
-| [.pem example](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfrB10PaO1qcdxytSHCXh3Nd8lisUnQqLBkTXF9hMcpKRah5Tt9r-w5mjos6baWkYWLM8z9nkRPkImeZKhHNq_H_TITQBrqkJ1cJNxLNGMtFetBmJjtrdYDI81GuGVQ6YhPIdBwgR9ICVj/s584/pem-example.png) |
-| .pem example (certificate + csr) |
+![.pem example](/assets/img/posts/certificate-formats-explained/03.png)
+
+*.pem example (certificate + csr)*
 
 #### .cer / .cert / .crt
 
