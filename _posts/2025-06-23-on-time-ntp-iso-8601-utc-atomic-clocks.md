@@ -6,8 +6,7 @@ tags:
   - "Time"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEietldTHamZjoqhsf-sSHlfTvdXmJawXggZ7eYdYcqzBaPVDEZt7GC9ffB0S7i8hj_ypuHmY8fRd57h8MUiR82O7DiqmWEsZTjWp-11Easu5Rog0-nSAm71-VfG8CQ_iHTQTpKVjcoWLNsP6WJXq37aPxkzehMdveI7Q9j18zZYKIuYHm5qflstj2lopcKX/w640-h347/World_Time_Zones_Map.svg.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEietldTHamZjoqhsf-sSHlfTvdXmJawXggZ7eYdYcqzBaPVDEZt7GC9ffB0S7i8hj_ypuHmY8fRd57h8MUiR82O7DiqmWEsZTjWp-11Easu5Rog0-nSAm71-VfG8CQ_iHTQTpKVjcoWLNsP6WJXq37aPxkzehMdveI7Q9j18zZYKIuYHm5qflstj2lopcKX/s1200/World_Time_Zones_Map.svg.png)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/01.png)
 I enjoy learning about time. It's fascinating to me how we've globally agreed that time will be different for various parts of the world, how we are going to represent that time difference, and making sure that we know the most accurate time possible. This isn't just important to make sure you're on time for an appointment, but it is surprisingly important in the technology we use every day.
 
 Here's everything I find interesting about time.
@@ -22,12 +21,10 @@ Time zones split the world into "western" time zones and "eastern" time zones re
 
 As previously mentioned, most countries observe [hour offsets](https://en.wikipedia.org/wiki/List_of_UTC_offsets#) denoted as, for example, UTC-05:00.  For some countries, there may multiple offsets if you observe Daylight Savings Time (DST). This is when, typically in spring and summer, countries advance their clocks by one hour so daylight ends later in the day.
 
-![Countries that observe Daylight Savings Time](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUJUx0QqxvFAN3Pw4NL-S3WKhHvI2a9GCYMmFyYH4z9dtPQiG3r3GlNguGC-1HX9as4b9ypIAT9Tmv5yOYAcM8cb6Q8FaL_h-FZqcK_0M5NhjDzMr-h-wdhwuocW1Y04homRGraGUWzvu2BaZLe196DkI4V3JrBhONjHkJtcLwIR-mIhuC2WhJ3RMObTH9/w640-h304/2025-06-11%2020_41_35-DST%20Countries%20Map%20-%20Daylight%20saving%20time%20by%20country%20-%20Wikipedia.png)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/02.png)
 *Countries that observe Daylight Savings Time*
 
-![Showing how Daylight Savings Time impacts the UTC offset between EST and DST.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSKmOUNfi7g5Xq91nF0QuDHgxHllDASgZjF95pEjoQUXFbiCmASnB-seEEARHnJumbYLeDIGkfiJYqglaVdaSeQeg9P91hNOYPqXdy8_5l1hqwJpS6RKf1dm13RGC6V_bpSB6E5CD26xAKvnvKNfQMnkkuspT6EDqXrQnMU1ZXS-FjdJr3PZ0Fn1sc_Xie/s320/2025-06-12%2020_29_40-Eastern%20Time%20Zone%20-%20Wikipedia.png)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/03.png)
 *Showing how Daylight Savings Time impacts the UTC offset between EST and DST.*
 
 Whether Daylight Savings Time should still be in practice, is useful in modern times, and its true origin are all...subjects for another time. But as it is the reality we live in, I always ensure when emailing or otherwise referencing time for professional matters that I include "EST" or "DST" and it is accurate. This is especially important if you're working with someone in Arizona or in a country that doesn't observe DST. On more than one occasion I've seen people miss meetings because they failed to account for observation of daylight savings time and correct offsets. Coordinating global resources is fun.
@@ -85,8 +82,7 @@ A close second favorite, and one I use frequently in writing, is to fully write 
 
 Atomic clocks are a special kind of clock that keep the most precise time on Earth. They measure properties of certain atoms which allow for an accurate keeping of time. Specifically, the precise length of a second. These clocks are primarily used by governments, universities, and other large organizations as they require in-depth scientific knowledge and funding to operate. UTC (as well as International Atomic Time - a subject for another day) is based on the result of atomic clocks worldwide and is another reason why UTC is so accurate.
 
-![By National Institute of Standards and Technology - Physics Laboratory: Time and Frequency Division](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv3kj-WIGJn6KEdAnt1dE0kFnS4uQGxp_apaNgBjrq9nzNoojMbHpSDo2IO5Rn4PB8Vqtx2CnnaK3RxkJU_0lYQabB1yYds8X__xOT3V_GDIC6eTn6LR0GYLEECv-ZyIiNpijtCaIzcS05ibIAwVOeOAEilL_U_c6sZQox57Z8vM98hbWAwys8TTsMm5jq/w400-h286/NIST-F2_cesium_fountain_atomic_clock.jpg)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/04.jpg)
 *By National Institute of Standards and Technology - Physics Laboratory: Time and Frequency Division*
 
   
@@ -98,15 +94,13 @@ There are several thorough explanations of the full process behind this on YouTu
 
 In addition to the cesium fountain atomic clocks, other types of atomic clocks exist. For example, rubidium atomic clocks and hydrogen maser clocks. These both have pros and cons, with the pros being that they are typically simpler and cheaper to build than cesium fountain atomic clocks. However, they are not as reliable long-term. There are rubidium atomic clocks found in many satellites currently orbiting Earth.
 
-![WWVB radio transmission from Fort Collins, Colorado](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPWgujddEGKK8JHPeldY_29AZT0aTKmUXya3JmzCJKvcntmQwslkuSOP3hK15j7bXhfTz6SFGINjeXJ1DEgl8wGfw2TbnULhyF-RGpNFtu-9ouCighymM5SUMwuyMyUdvoc74ITsYyk7dmJjvndrMTGi2MjHQVf7s-vJI8u7OU0GwsAbI9gIh5bjslEvKF/w400-h266/wwvb.jpg)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/05.jpg)
 *WWVB radio transmission from Fort Collins, Colorado*
 
   
 The accurate time measured by these atomic clocks is broadcast for consumer and commercial applications. In the United States, [this is in Fort Collins, Colorado](https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwvb). Germany and the United Kingdom have similar broadcasts in Europe, as do other locations globally. Many clocks, watches, and other appliances are preconfigured to receive this signal and automatically update the time on that appliance.  
 
-![Signal strength of WWVB at 0600 UTC](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiedVgfQMu6R-QC4aIl5MRI-ALtHV2gdcNsLCnod742I8c7GzXXdUvgGVEh4BIG7lGdAgJsOLKM-mn-uRUpPH267RZ30oIUMbPS91YrCiESp2hKDzJdC_FnFcHremL1CmIeyomhi8hyphenhyphenQ6Sstnor5N7Llg1fyDP6Q8TQIUyL1qSrIe1rrUvYt2q6tzCDCSZe/s320/0600utc.jpg)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/06.jpg)
 *Signal strength of WWVB at 0600 UTC*
 
 ## Network Time Protocol (NTP)
@@ -115,8 +109,7 @@ Network Time Protocol (NTP), like most of the other subjects in this post, could
 
 NTP is used by most computers globally to sync their system clock to within a few milliseconds of UTC. This likely includes the computer or phone you're reading this on. It is currently defined in [RFC 5905](https://www.rfc-editor.org/rfc/rfc5905) which specifically defines NTPv4.
 
-![NTP hierarchical design, credit Wikipedia.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdxOjeRQlE_0m7oOcQlyOrnn7MvixjKbyLmY3QvUYEmyfFB9DP8GOvK6r10KwD1Z5cTU2HajFGIfPk7PHGXOs9FWt_QbXDCT345YFc-fsl4JHY06gxDvfCBvI5nwRxRMfOgqeqPau55u7vMmUQcOOPAkuCDtBWj4B0gmQ4toFmH5rEuo6N5GGRFvpXiwcW/w320-h272/2025-06-22%2019_23_30-Network%20Time%20Protocol%20-%20Wikipedia.png)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/07.png)
 *NTP hierarchical design, credit Wikipedia.*
 
 Typically, a client, such as your phone, is configured to poll (query) a specified NTP server. This NTP server is usually configured to poll another NTP server, either a peer or a NTP server in another *stratum*. The usual data flow is such that devices in stratum 3 query devices in stratum 2, which query devices in stratum 1, which query devices in stratum 0. NTP uses UDP port 123.
@@ -125,8 +118,7 @@ Typically, a client, such as your phone, is configured to poll (query) a specifi
 
 Technically, devices in stratum 0 cannot advertise themselves. These are the cesium fountain atomic clocks and other similar timekeeping devices we discussed previously. Computers are attached or otherwise synchronized to these devices and those computers are then part of stratum 1. Practically, stratum 1 is the source of truth in NTP as a device advertising itself as stratum 0 in NTP means that its stratum is undefined. The maximum number of strata in a given NTP system is 15. 16 is reserved to indicate that a device in unsynchronized.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBQnGqxo4JLuxy6xjJIDkVkvAWJsTf8vTsHhdVH1RkZxOdT8e9rViWP_siqTPrcy_SCdoJXz0NgQZL81-PIRPij-xY5hdzxe8WpT4GK6k6NXniET_x4xsCfgiRfVP6Ctb6a4bVOQ7BxyjvxsqDi09yD62Mi4PVzext_zuuYBBrK60iqPMdrdprk1Ceggur/w400-h220/2025-06-22%2019_44_34-windows%20command%20check%20ntp%20server%20-%20Google%20Search.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBQnGqxo4JLuxy6xjJIDkVkvAWJsTf8vTsHhdVH1RkZxOdT8e9rViWP_siqTPrcy_SCdoJXz0NgQZL81-PIRPij-xY5hdzxe8WpT4GK6k6NXniET_x4xsCfgiRfVP6Ctb6a4bVOQ7BxyjvxsqDi09yD62Mi4PVzext_zuuYBBrK60iqPMdrdprk1Ceggur/s1157/2025-06-22%2019_44_34-windows%20command%20check%20ntp%20server%20-%20Google%20Search.png)
-
+![](/assets/img/posts/on-time-ntp-iso-8601-utc-atomic-clocks/08.png)
 Above is an example output from my system showing that it synchronizes to **time.windows.com** for its NTP server. Plenty of other options exist and advertise on different stratum depending on the server. My personal recommendations in addition to time.windows.com are:
 
 - time.nist.gov
