@@ -12,7 +12,7 @@ tags:
 [Certification Authority Browser Forum (CA/Browser Forum)](https://cabforum.org/) is "a voluntary gathering of Certificate Issuers and suppliers of Internet browser software and other applications that use certificates (Certificate Consumers)." This group has determined that SSL/TLS certificates will soon be required to expire every 47 days (or less). Compared to the industry standards of even a few years ago, this is a significant change in requirements.   
   
 
-**[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLttnvJs8SVGXx1ijjW_28Zf3dI4_fOVVbrpFUm1vnrbmHS50FKfuWN-UvGU3JWyMSeBqiwy_viMn20fkIrEWYR033qKQCOjy7fS51NZt_-ry2MQTatSHbAz0opIIsX1H8kRefMPAPJt5pc8Bu9uccubrw5lc6JU_1I870mahuT45u0plFvtqPKhrOMfq/w640-h360/tls_validity_schedule.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLttnvJs8SVGXx1ijjW_28Zf3dI4_fOVVbrpFUm1vnrbmHS50FKfuWN-UvGU3JWyMSeBqiwy_viMn20fkIrEWYR033qKQCOjy7fS51NZt_-ry2MQTatSHbAz0opIIsX1H8kRefMPAPJt5pc8Bu9uccubrw5lc6JU_1I870mahuT45u0plFvtqPKhrOMfq/s2720/tls_validity_schedule.png)**
+![TLS certificate validity schedule](/assets/img/posts/automating-tls-certificate-renewal-with/10.png)
 
 Those organizations that have already deployed automated methods of certificate renewal may find this to be a minor inconvenience -- just adjust the frequency with which their automated tasks run and go about their day. For those that are used to manually renewing certificates once a year, this is a massively impacting change. This is true for small shops with a simple online presence, to moderately sized organizations with IT teams that simply did not have a need for automated certificate renewal in the past.
 
