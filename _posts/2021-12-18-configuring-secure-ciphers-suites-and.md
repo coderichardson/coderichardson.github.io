@@ -15,18 +15,12 @@ There are many instances in which you'll need to edit cipher suites on a system 
 
 My favorite way of editing TLS versions and cipher suites is using [IIS Crypto](https://www.nartac.com/Products/IISCrypto). IIS Crypto allows you to select your desired TLS/SSL version, cipher suites, and backup the registry, all with a few mouse clicks. Only downside is that it's Windows only (even the command line version).
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgAaEWnGGltr69maU5DKTdfCn1rL9KiEWjUx28c0w5Bq9b3H0GrSilliD475UQdbjTT5nbFNyslU2SKD352oT182zPMBq_asiR3J9LDKGHmrEgVF3fOC-MY1RY48MG5cztmmn8LsNv0tSlTDdn9IqaWD5ieovHG_X41nO437GKrb9lzUmlFTPMhe2TjHA=w640-h533)](https://blogger.googleusercontent.com/img/a/AVvXsEgAaEWnGGltr69maU5DKTdfCn1rL9KiEWjUx28c0w5Bq9b3H0GrSilliD475UQdbjTT5nbFNyslU2SKD352oT182zPMBq_asiR3J9LDKGHmrEgVF3fOC-MY1RY48MG5cztmmn8LsNv0tSlTDdn9IqaWD5ieovHG_X41nO437GKrb9lzUmlFTPMhe2TjHA=s886)
-
-  
-
+![](/assets/img/posts/configuring-secure-ciphers-suites-and/01.jpg)
 This is what IIS Crypto will look like on an unmodified Windows 10 system. Note the separate **Server Protocols** and **Client Protocols** sections. These are important to keep straight depending on what system is listening for connections and what system is initiating connections. If you modify just one of these on both a server and client you may break their ability to make a connection!
 
 Also, notice all the boxes are checked but seemingly "grayed out". This is IIS Crypto indicating that the default value is set. This is also true over on the **Cipher Suites** page. Yes, there are multiple pages with mostly redundant information on them that you need to ensure both are set accurately. More on that later. (Also, if you're curious about some of the functionality of IIS Crypto they have [a great FAQ](https://www.nartac.com/Products/IISCrypto/FAQ)).
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhvnsH53FaEYu51VKJRBlRsb0KgFOD2DkCiHMXnUSig6CVgoUfvh_Wrczkiv6rf1SQ8diBpnIg8RobbCvsIy5l7-lDgwR2oHwgmNvmZGGhysTlpQDwHmBTzjen-WH95rZY11YnfZQlMkzXQh-yyreC0zP66geFrpKnT7o6Ak_8yLnAFDBeyCuLLXxtIIw=w640-h532)](https://blogger.googleusercontent.com/img/a/AVvXsEhvnsH53FaEYu51VKJRBlRsb0KgFOD2DkCiHMXnUSig6CVgoUfvh_Wrczkiv6rf1SQ8diBpnIg8RobbCvsIy5l7-lDgwR2oHwgmNvmZGGhysTlpQDwHmBTzjen-WH95rZY11YnfZQlMkzXQh-yyreC0zP66geFrpKnT7o6Ak_8yLnAFDBeyCuLLXxtIIw=s886)
-
-  
-
+![](/assets/img/posts/configuring-secure-ciphers-suites-and/02.jpg)
 Check/un-check the desired protocols and cipher suites, then click **Apply**. You'll need to reboot your system for the changes to take effect (or check the "Reboot" box before clicking Apply in IIS Crypto).
 
 Then you're done! Yes, it's really that easy. The hard part is troubleshooting connections you inevitably break because some software you have installed insists on using TLS 1.1 or won't work with ECDHE.
@@ -55,10 +49,7 @@ On a default install of Windows there will be nothing beyond the Protocols key. 
 - This enables TLS 1.2 as a client protocol and it will be enabled by default.
 - Swap these values if you want to disable the protocol.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiDZwg6zzaX72ie2JZuYHIKkBQ2dQDWcbwFUzdx21oscIVi5lx4xdxwHtqFEwFkSY76g-JZ5QkwwVj7t4YwZmktq0loblYHZ7nyXkf8Cxp4hIQ_ryApO_Bp7nhKXuG8TnbdEbqRYCj3S3htMqO2ovy7aj03QADb6ik8_FtwLUP5pRlY33cYtPiWxEAsZg=w640-h464)](https://blogger.googleusercontent.com/img/a/AVvXsEiDZwg6zzaX72ie2JZuYHIKkBQ2dQDWcbwFUzdx21oscIVi5lx4xdxwHtqFEwFkSY76g-JZ5QkwwVj7t4YwZmktq0loblYHZ7nyXkf8Cxp4hIQ_ryApO_Bp7nhKXuG8TnbdEbqRYCj3S3htMqO2ovy7aj03QADb6ik8_FtwLUP5pRlY33cYtPiWxEAsZg=s897)
-
-  
-
+![](/assets/img/posts/configuring-secure-ciphers-suites-and/03.jpg)
 #### Cipher Suites
 
 Open Registry Editor and navigate to:
@@ -80,8 +71,7 @@ For every cipher suite you want to enable or disable you will need to create a f
 - This enables the cipher suite.
 - Make Enabled **0** (binary) to disable the cipher.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjaf4nF4pqss4jwMtpi0v5ocyVPtbAE3KNY6awwmwyXUo34YMdUvSKxQbUZxfMulU2PINJXHdNuC922_Z3zFjeEziTwry-T8EU7jcSktjpBhWTuoGRaiP05znPCvPHQBj3Ae0nggXmWwAriuTuSq88VC7idZqEGm3oqC_p5t5IoQTLWjoqWRDIPL7StSQ=w640-h464)](https://blogger.googleusercontent.com/img/a/AVvXsEjaf4nF4pqss4jwMtpi0v5ocyVPtbAE3KNY6awwmwyXUo34YMdUvSKxQbUZxfMulU2PINJXHdNuC922_Z3zFjeEziTwry-T8EU7jcSktjpBhWTuoGRaiP05znPCvPHQBj3Ae0nggXmWwAriuTuSq88VC7idZqEGm3oqC_p5t5IoQTLWjoqWRDIPL7StSQ=s897)
-
+![](/assets/img/posts/configuring-secure-ciphers-suites-and/04.jpg)
 #### Cipher Suite Order
 
 Lastly, we have the Cipher Suite order. This is found at:
@@ -101,8 +91,7 @@ Create a value named **Functions** of type REG\_MULTI\_SZ. This is where you lis
 3. Do not include any spaces.
 4. The cipher suite(s) you want to use are named correctly. This can vary [depending on your Windows OS](https://security.stackexchange.com/questions/203128/what-are-the-p-values-in-some-cipher-string) (mostly around Elliptical Curve cipher suites as Windows 10/2016 no longer requires \_P256, etc., designations on EC suites while 2012R2 and before does).
 
-![Credit: Microsoft](https://blogger.googleusercontent.com/img/a/AVvXsEgR5a9ouhsPeQJeWFcSWEGsTQX_IRJMxL_uw9k1Mw6sorzZVXAmEGxOb23MtqEC19kUkg9jbeFnk7R_SGAU2l8oOMrVPZtS-iym7-891h-J69TExqhAeio3kXtfwOTunqfloTmkliGcAWQAY0z-2yDvPGOMRd4orGQjhCWR2CeAiZmVKVJihMdLZNehZw=w640-h360)
-
+![](/assets/img/posts/configuring-secure-ciphers-suites-and/05.jpg)
 *Credit: Microsoft (https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)*
 
 ### Final Thoughts
