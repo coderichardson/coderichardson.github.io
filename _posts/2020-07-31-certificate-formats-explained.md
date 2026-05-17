@@ -6,8 +6,7 @@ tags:
   - "TLS/SSL"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNZsASEkKxA2il2rbh7dOd-juIS4Fp-Z1JqL1xrP54MYkliAX34JKrQxhsqfrw7Yin7bGV6_fuk5QMUHXYFq1aGEN3bYg8n3cKxBUz97_MpdEQo8BpDofEliIQHfJI8xMmU_OYrUzUiQ6B/w500-h411/TLS_SSL+Certificate+Formats+-+Diagram.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNZsASEkKxA2il2rbh7dOd-juIS4Fp-Z1JqL1xrP54MYkliAX34JKrQxhsqfrw7Yin7bGV6_fuk5QMUHXYFq1aGEN3bYg8n3cKxBUz97_MpdEQo8BpDofEliIQHfJI8xMmU_OYrUzUiQ6B/s478/TLS_SSL+Certificate+Formats+-+Diagram.png)
-
+![](/assets/img/posts/certificate-formats-explained/01.png)
 Certificates are amazing. They are all standardized, there's a single, universal, secure format that most everyone uses, just about anyone can manage them, and a single validation failure in a chain can no longer cause production outages.
 
 Now that the jokes are out of the way, if you're anything like me you find it difficult to keep track of the certificate formats, how they're encoded, which formats allow for the private key to be included and which don't, why exactly I need to use one format of certificate on this box but it needs to be converted before I put it on Windows, etc. But certificates actually play a vital role in security and they're important to understand.
@@ -29,8 +28,7 @@ The easiest way to remember what makes PEM different is that it's really just a 
 
 See **.pem** above. Windows just recognizes this as a certificate while it does not recognize .pem.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj751ZswRxmRCwSMb3a6EYnIPyV8Y90vtTlBxaYDVpAsdZFtBHVrPfZy-cGd3V1ZkaFEG4wuVeX7Z62syO2imfci2KaKp1AGYkIbjYkqirpPJE37HBdDEB0ch6nAQeXF-cvtCpci5jlYYFk/s0/windows_recognizes_this.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj751ZswRxmRCwSMb3a6EYnIPyV8Y90vtTlBxaYDVpAsdZFtBHVrPfZy-cGd3V1ZkaFEG4wuVeX7Z62syO2imfci2KaKp1AGYkIbjYkqirpPJE37HBdDEB0ch6nAQeXF-cvtCpci5jlYYFk/s173/windows_recognizes_this.png)
-
+![](/assets/img/posts/certificate-formats-explained/02.png)
 #### .p7b / .p7c
 
 Also Base64 encoded, this format is recognized by several platforms. While out of the scope of this post, the RFCs they're based on define the actual format/standard ([PKCS#7](https://tools.ietf.org/html/rfc2315) and [CMS](https://tools.ietf.org/html/rfc5652)). These can contain varying numbers and types of certificates (root, intermediate, etc.) but will never include the private key.
