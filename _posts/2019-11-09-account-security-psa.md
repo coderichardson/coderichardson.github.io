@@ -32,10 +32,9 @@ The major takeaway I like to emphasize is the concept of pass **phrases**. A pas
 
 There is no reason not to take advantage of this and make your accounts exponentially more secure.
 
-|  |
-| --- |
-|  |
-| [XKCD](https://xkcd.com/936/) |
+![XKCD password strength](/assets/img/posts/account-security-psa/05.png)
+
+*[XKCD](https://xkcd.com/936/)*
 
 #### Multi-Factor Authentication
 
