@@ -7,10 +7,7 @@ tags:
   - "Cybersecurity"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizMmKp1e7zAk8evZdigLutNxRb6O5fWP5rAbWeK5mhLpAuk5zbK3FNBiOWHfA9xdIcgTLXBXOrrN2iPWj6uj4wXI8-7xL-irzC9IdmzucIdMFip5L-ILyLK3bUJjy8Ucb8fvI8jVzkXxLxXg4Q1T16Eo1ymn2gKIrdvzWcZtVogAx8leUontz7XMu42Or6/w640-h426/TLS%20Cipher%20Suites.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizMmKp1e7zAk8evZdigLutNxRb6O5fWP5rAbWeK5mhLpAuk5zbK3FNBiOWHfA9xdIcgTLXBXOrrN2iPWj6uj4wXI8-7xL-irzC9IdmzucIdMFip5L-ILyLK3bUJjy8Ucb8fvI8jVzkXxLxXg4Q1T16Eo1ymn2gKIrdvzWcZtVogAx8leUontz7XMu42Or6/s1536/TLS%20Cipher%20Suites.png)
-
-  
-
+![](/assets/img/posts/tls-and-secure-cipher-suites-in-2026/01.png)
 ### TLS
 
 It's been 4.5 years since I last wrote about the [state of TLS and secure cipher suites](https://blog.codyrichardson.io/2021/07/secure-cipher-suites-and-tls-in-2021.html). A lot has changed in that time including some updates around TLS and cipher suites, so I wanted to provide an update while it has been on my mind.
