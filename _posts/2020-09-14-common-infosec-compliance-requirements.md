@@ -21,10 +21,9 @@ Organizations can become ISO 27001 certified through an audit conducted by an ac
 
 System and Organization Controls (SOC) compliance is not a regulation or specific set of standards, but an auditing report created by the [American Institute of Certified Public Accountants](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html) (AICPA). SOC reports ultimately prove that *an organization is doing what they say they're doing*. The content and depth of the audit depends on the SOC audit selected (SOC 1, 2, or 3), as well as the sub-type (Type 1 or Type 2). Many sites will draw a clear-cut difference between these but some overlap especially around operational practices does exist. Nonetheless, different reports are often requested by potential customers with specific expectations in mind.
 
-|  |
-| --- |
-|  |
-| Source: <https://www.otava.com/blog/soc-1-soc-2-soc-3-report-comparison/> |
+![SOC 1, SOC 2, SOC 3 report comparison](/assets/img/posts/common-infosec-compliance-requirements/01.jpg)
+
+*Source: [otava.com](https://www.otava.com/blog/soc-1-soc-2-soc-3-report-comparison/)*
 
   
 
