@@ -10,10 +10,9 @@ There is just so much to unpack if you really get into the details. Others onlin
 
 Instead here are some of the things I like to highlight when answering this question along with parts I've had to educate myself on (browser rendering steps, parsing JS and CSS, various trees, and that end of the flow were really interesting to read about as I don't usually have exposure to them).
 
-|  |
-| --- |
-|  |
-| Credit: [@manekinekko](https://twitter.com/kamranahmedse/status/1297131414190776320) |
+![What happens when you type a URL in a browser](/assets/img/posts/what-happens-when-you-type-url-in/01.png)
+
+*Credit: [@manekinekko](https://twitter.com/kamranahmedse/status/1297131414190776320)*
 
   
 
