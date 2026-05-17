@@ -1,6 +1,9 @@
 ---
 title: "On Time - NTP, ISO 8601, UTC, Atomic Clocks, and Time Zones"
 date: 2025-06-23 00:32:00 +0000
+tags:
+  - "NTP"
+  - "Time"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEietldTHamZjoqhsf-sSHlfTvdXmJawXggZ7eYdYcqzBaPVDEZt7GC9ffB0S7i8hj_ypuHmY8fRd57h8MUiR82O7DiqmWEsZTjWp-11Easu5Rog0-nSAm71-VfG8CQ_iHTQTpKVjcoWLNsP6WJXq37aPxkzehMdveI7Q9j18zZYKIuYHm5qflstj2lopcKX/w640-h347/World_Time_Zones_Map.svg.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEietldTHamZjoqhsf-sSHlfTvdXmJawXggZ7eYdYcqzBaPVDEZt7GC9ffB0S7i8hj_ypuHmY8fRd57h8MUiR82O7DiqmWEsZTjWp-11Easu5Rog0-nSAm71-VfG8CQ_iHTQTpKVjcoWLNsP6WJXq37aPxkzehMdveI7Q9j18zZYKIuYHm5qflstj2lopcKX/s1200/World_Time_Zones_Map.svg.png)

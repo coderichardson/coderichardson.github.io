@@ -3,6 +3,7 @@ title: "Studying Cybersecurity - How to Learn New Concepts"
 date: 2020-12-05 19:09:00 +0000
 tags:
   - "Career"
+  - "Cybersecurity"
 ---
 
 Learning cybersecurity or any "specialty" within IT can be challenging. Whether you're a Sysadmin, Security Analyst, Network Engineer, or Database Administrator, there's a lot of learning involved. So how do you get started? And what can help you along? There are two concepts that I often find myself coming back to: Black Boxes and Elephants.

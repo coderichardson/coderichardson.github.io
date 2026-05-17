@@ -3,6 +3,7 @@ title: "Certificate Format Basics"
 date: 2020-07-31 23:38:00 +0000
 tags:
   - "Certificates"
+  - "TLS/SSL"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNZsASEkKxA2il2rbh7dOd-juIS4Fp-Z1JqL1xrP54MYkliAX34JKrQxhsqfrw7Yin7bGV6_fuk5QMUHXYFq1aGEN3bYg8n3cKxBUz97_MpdEQo8BpDofEliIQHfJI8xMmU_OYrUzUiQ6B/w500-h411/TLS_SSL+Certificate+Formats+-+Diagram.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNZsASEkKxA2il2rbh7dOd-juIS4Fp-Z1JqL1xrP54MYkliAX34JKrQxhsqfrw7Yin7bGV6_fuk5QMUHXYFq1aGEN3bYg8n3cKxBUz97_MpdEQo8BpDofEliIQHfJI8xMmU_OYrUzUiQ6B/s478/TLS_SSL+Certificate+Formats+-+Diagram.png)

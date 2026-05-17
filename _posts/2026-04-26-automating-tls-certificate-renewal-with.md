@@ -1,6 +1,11 @@
 ---
 title: "Automating TLS Certificate Renewal with Certbot"
 date: 2026-04-26 01:27:00 +0000
+tags:
+  - "TLS/SSL"
+  - "Certificates"
+  - "Linux"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiWrZ6VHHjh4kzh2ljPwYwuihzagWCSpcdPY5aI7LiEv4pQ82ql7-Zq0CW6LywH6n4bhmtX0EvuOfvjeKC7NCju0dGcVh6NxltTAVEzkPL04G3zrBiZqWtRgYuIw_i6FguPwSda8t8bRo5prQ2WeMQD2ce-55OiPucGcFRG62l5tqd7A4hA8vBalnfjr3S/w640-h426/6a809520-bea7-4585-9dda-275d213cc310.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiWrZ6VHHjh4kzh2ljPwYwuihzagWCSpcdPY5aI7LiEv4pQ82ql7-Zq0CW6LywH6n4bhmtX0EvuOfvjeKC7NCju0dGcVh6NxltTAVEzkPL04G3zrBiZqWtRgYuIw_i6FguPwSda8t8bRo5prQ2WeMQD2ce-55OiPucGcFRG62l5tqd7A4hA8vBalnfjr3S/s1536/6a809520-bea7-4585-9dda-275d213cc310.png)

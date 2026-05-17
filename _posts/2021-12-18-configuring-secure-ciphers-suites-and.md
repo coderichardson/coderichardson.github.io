@@ -4,6 +4,7 @@ date: 2021-12-18 23:17:00 +0000
 tags:
   - "Ciphers"
   - "TLS/SSL"
+  - "Windows"
 ---
 
 Hey everyone, today we're back on cipher suites. If you want a refresher of TLS and secure cipher suites overall, check out [my previous post](https://blog.codyrichardson.io/2021/07/secure-cipher-suites-and-tls-in-2021.html).

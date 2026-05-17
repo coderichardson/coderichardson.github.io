@@ -1,6 +1,9 @@
 ---
 title: "Building a RetroPie (2025)"
 date: 2025-04-18 01:24:00 +0000
+tags:
+  - "Linux"
+  - "Raspberry Pi"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2sB_BORqMxP07xCaHk2YSOZOllv-lMY1yPgNmLjBznp7Ud9YjpXAYGnumtnO1GwP8n3Gj0Lm-m9g1gbxpc5vmL1EptwtCExmGA7gYZQ9GbJRCZhw7bkMlK7GX4-VTilzBFNyVrzriextUOfmETYrBjOPfM9uYr-jEnq32mu1_tpCw2Q0CPXMPtZnItJEz/w400-h300/IMG_0510.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2sB_BORqMxP07xCaHk2YSOZOllv-lMY1yPgNmLjBznp7Ud9YjpXAYGnumtnO1GwP8n3Gj0Lm-m9g1gbxpc5vmL1EptwtCExmGA7gYZQ9GbJRCZhw7bkMlK7GX4-VTilzBFNyVrzriextUOfmETYrBjOPfM9uYr-jEnq32mu1_tpCw2Q0CPXMPtZnItJEz/s5712/IMG_0510.jpeg)

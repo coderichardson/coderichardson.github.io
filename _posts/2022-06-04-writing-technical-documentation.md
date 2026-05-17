@@ -3,6 +3,7 @@ title: "Writing Technical Documentation"
 date: 2022-06-04 17:09:00 +0000
 tags:
   - "Documentation"
+  - "Career"
 ---
 
 Often in infosec we get caught up on CVEs, the latest breach, or ransomware. Unfortunately, the other half of the job (project management, documentation, etc) can sometimes get less attention. Admittedly, they don't make movies about completing the paperwork after most action films. But in the real world it's what can lose court cases or certify a company as compliant with a government regulation.

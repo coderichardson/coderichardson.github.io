@@ -3,6 +3,7 @@ title: "Cybersecurity Fundamentals"
 date: 2024-02-05 01:52:00 +0000
 tags:
   - "Career"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkvRc4wEgyTFLAVQVUF2sGTRPCeNhfsdZYaMpdSmMF1Q__YqmCFWhhSDDfUoGTaLjGp7XjNHtMZI_Ub3xAvjLqLQUDndzggZvBHqqNQOz3P-ucs_UGtVIdVT5FS05DKfdU4PHU-YDKr99lga_rpNdC0YPam1L1PwcloWHXm5cGLzoYFOu29P-BeZZea2zt/w640-h360/cyber-criminal-in-front-of-computer-screens.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkvRc4wEgyTFLAVQVUF2sGTRPCeNhfsdZYaMpdSmMF1Q__YqmCFWhhSDDfUoGTaLjGp7XjNHtMZI_Ub3xAvjLqLQUDndzggZvBHqqNQOz3P-ucs_UGtVIdVT5FS05DKfdU4PHU-YDKr99lga_rpNdC0YPam1L1PwcloWHXm5cGLzoYFOu29P-BeZZea2zt/s2309/cyber-criminal-in-front-of-computer-screens.jpg)

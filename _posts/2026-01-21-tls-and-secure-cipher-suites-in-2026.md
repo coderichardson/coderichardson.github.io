@@ -1,6 +1,10 @@
 ---
 title: "TLS and Secure Cipher Suites in 2026"
 date: 2026-01-21 03:24:00 +0000
+tags:
+  - "TLS/SSL"
+  - "Ciphers"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizMmKp1e7zAk8evZdigLutNxRb6O5fWP5rAbWeK5mhLpAuk5zbK3FNBiOWHfA9xdIcgTLXBXOrrN2iPWj6uj4wXI8-7xL-irzC9IdmzucIdMFip5L-ILyLK3bUJjy8Ucb8fvI8jVzkXxLxXg4Q1T16Eo1ymn2gKIrdvzWcZtVogAx8leUontz7XMu42Or6/w640-h426/TLS%20Cipher%20Suites.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizMmKp1e7zAk8evZdigLutNxRb6O5fWP5rAbWeK5mhLpAuk5zbK3FNBiOWHfA9xdIcgTLXBXOrrN2iPWj6uj4wXI8-7xL-irzC9IdmzucIdMFip5L-ILyLK3bUJjy8Ucb8fvI8jVzkXxLxXg4Q1T16Eo1ymn2gKIrdvzWcZtVogAx8leUontz7XMu42Or6/s1536/TLS%20Cipher%20Suites.png)

@@ -3,6 +3,7 @@ title: "What Happens When You Type a URL in a Browser and Press Enter?"
 date: 2021-01-23 19:56:00 +0000
 tags:
   - "Web Applications"
+  - "Networking"
 ---
 
 There is just so much to unpack if you really get into the details. Others online have already done a great job answering this question with minute details I wouldn't have even thought to include in this post had I not discovered their work (see the explanation of keystrokes being entered on a USB keyboard and the related circuitry vs a capacitive touchscreen) so I'm not going to try to out-detail a 70+ person collaborative effort.

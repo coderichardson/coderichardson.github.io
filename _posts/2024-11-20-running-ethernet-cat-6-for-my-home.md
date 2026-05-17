@@ -3,6 +3,7 @@ title: "Running Ethernet (CAT 6) for My Home Network"
 date: 2024-11-20 03:28:00 +0000
 tags:
   - "Home Network"
+  - "Networking"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdApglTSJw2yO2lK7ONIjWIMmauLEiFFJWuiJK5skGzaAWyjh6vJNrmE-KXgtQF2Y4h84RVmgGryhWlm6v_BWmxosVFcSXasBQg2rruxqgWsJ1ziYCquy1-BsDbgEEpACCmMRKvQI22Xooduj8pHlQXag2c06fFt6PMdHva8ZKdjnHRxGbUDUle_eq2Aj0/w300-h400/IMG_1516.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdApglTSJw2yO2lK7ONIjWIMmauLEiFFJWuiJK5skGzaAWyjh6vJNrmE-KXgtQF2Y4h84RVmgGryhWlm6v_BWmxosVFcSXasBQg2rruxqgWsJ1ziYCquy1-BsDbgEEpACCmMRKvQI22Xooduj8pHlQXag2c06fFt6PMdHva8ZKdjnHRxGbUDUle_eq2Aj0/s4032/IMG_1516.jpeg)

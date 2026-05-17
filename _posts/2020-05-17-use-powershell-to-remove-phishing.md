@@ -4,6 +4,7 @@ date: 2020-05-17 17:21:00 +0000
 tags:
   - "PowerShell"
   - "Email"
+  - "Cybersecurity"
 ---
 
 Anyone on the blue team side of security thinks about how to prevent and train users not to click on phishing emails. Phishing emails are the initial vector [for the vast majority of companies that fall victim to ransomware](https://www.vadesecure.com/en/ransomware-attacks-why-email-is-still-the-1-delivery-method/), and others [harvest credentials to be used in data breaches](https://blog.rapid7.com/2019/08/20/how-attackers-can-harvest-users-microsoft-365-credentials-with-new-phishing-campaign/).

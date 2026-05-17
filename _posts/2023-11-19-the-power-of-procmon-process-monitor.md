@@ -3,6 +3,7 @@ title: "The Power of Procmon (Process Monitor)"
 date: 2023-11-19 21:27:00 +0000
 tags:
   - "Windows"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOO5WXqmHW2tPLvxxuVaibf6WZlXs6sDJvK6kVbVMNFwItCwe3GaZBlIoux4GjFSyNJkUedaTezIjcgW3TSnr4kJOmpsSNApKZOp49iC3pdgsZkv6jl0nBJLDBu6ciG1d7J7-8yeIIPMSM0lxgclTc6-6r4_T1om29ZDcpy6xo4Hia_yZYTC37DKmpuH7S/w640-h478/procmon-main.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOO5WXqmHW2tPLvxxuVaibf6WZlXs6sDJvK6kVbVMNFwItCwe3GaZBlIoux4GjFSyNJkUedaTezIjcgW3TSnr4kJOmpsSNApKZOp49iC3pdgsZkv6jl0nBJLDBu6ciG1d7J7-8yeIIPMSM0lxgclTc6-6r4_T1om29ZDcpy6xo4Hia_yZYTC37DKmpuH7S/s1024/procmon-main.png)

@@ -3,6 +3,7 @@ title: "Detecting Phishing Emails"
 date: 2022-08-25 00:48:00 +0000
 tags:
   - "Email"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiemazsbJQSBY5kawdl9mAxPENRcqueqEJOSJCnLUQwK-FirfSCC0EKBXLQ9YeOMV_2ExXQqcY8SGgMeucTjHalHBqgSMI5F2eH5Koi3f9tJFIixbU_lArogXV5UqOpxEi012cLRjvtlDJOrIZ9nkb02yLMKZDh_U8e_MnpPM1JTvs3woOEh1gozoTb6Q/w640-h426/istockphoto-1078729656-612x612.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiemazsbJQSBY5kawdl9mAxPENRcqueqEJOSJCnLUQwK-FirfSCC0EKBXLQ9YeOMV_2ExXQqcY8SGgMeucTjHalHBqgSMI5F2eH5Koi3f9tJFIixbU_lArogXV5UqOpxEi012cLRjvtlDJOrIZ9nkb02yLMKZDh_U8e_MnpPM1JTvs3woOEh1gozoTb6Q/s612/istockphoto-1078729656-612x612.jpg)

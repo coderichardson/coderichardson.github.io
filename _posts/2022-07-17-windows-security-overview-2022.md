@@ -3,6 +3,7 @@ title: "Windows Security Overview"
 date: 2022-07-17 22:21:00 +0000
 tags:
   - "Windows"
+  - "Cybersecurity"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPRikAUHAVpVGgCvsH46tp_QN8FjUwVnCFGYIOirLMe-XoTP8waHGOjyaWUjjO2b6ifo4NTs3R3msLopXekBQJIFVGvti4_s_8Wxs4bZYZBB9nFtrRdj9us_XPrafhDL8jYRGt06itags6-lMI0rnLiXEPGFPenP0SJKXELTnwG3vRSTsEVs1w_n-oHg/w640-h360/win10_wallpaper.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPRikAUHAVpVGgCvsH46tp_QN8FjUwVnCFGYIOirLMe-XoTP8waHGOjyaWUjjO2b6ifo4NTs3R3msLopXekBQJIFVGvti4_s_8Wxs4bZYZBB9nFtrRdj9us_XPrafhDL8jYRGt06itags6-lMI0rnLiXEPGFPenP0SJKXELTnwG3vRSTsEVs1w_n-oHg/s3840/win10_wallpaper.jpg)

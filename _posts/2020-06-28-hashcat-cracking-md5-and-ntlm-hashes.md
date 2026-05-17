@@ -4,6 +4,7 @@ date: 2020-06-28 20:44:00 +0000
 tags:
   - "Passwords"
   - "Hacking"
+  - "Linux"
 ---
 
 Today we'll be exploring [Hashcat](https://hashcat.net/hashcat/) -- "the world’s fastest and most advanced password recovery utility". This, along with similar tools, should be used only for password recovery, pentest engagements, CTFs, etc and never for illegal purposes.

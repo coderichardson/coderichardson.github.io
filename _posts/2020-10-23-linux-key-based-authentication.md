@@ -5,6 +5,7 @@ tags:
   - "Authentication"
   - "Certificates"
   - "SSH"
+  - "Linux"
 ---
 
 ## Overview

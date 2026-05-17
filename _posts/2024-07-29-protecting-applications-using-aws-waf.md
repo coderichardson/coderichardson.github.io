@@ -4,6 +4,8 @@ date: 2024-07-29 01:27:00 +0000
 tags:
   - "Cloud"
   - "AWS"
+  - "Cybersecurity"
+  - "Web Applications"
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvX3yK8yc5b_M_SDJVoCl02wM-hWwCS_RRbwYh_E1R7rnUUuFZ1OpdN7EV91nFlp7m8IM5FRGLtRcwMM3H2bZalhVsbtvFM7bXs_0nQGp3uk-oZOAZPi2CmHZ_dm0f_iQJ8-zo7yJJKtzQrkWhjyA0Ojr837l7-8xaw4TvlLsEJbZdvdmS2htMShW-H8RC/w640-h302/AWS-WAF-Picture.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvX3yK8yc5b_M_SDJVoCl02wM-hWwCS_RRbwYh_E1R7rnUUuFZ1OpdN7EV91nFlp7m8IM5FRGLtRcwMM3H2bZalhVsbtvFM7bXs_0nQGp3uk-oZOAZPi2CmHZ_dm0f_iQJ8-zo7yJJKtzQrkWhjyA0Ojr837l7-8xaw4TvlLsEJbZdvdmS2htMShW-H8RC/s1581/AWS-WAF-Picture.png)
