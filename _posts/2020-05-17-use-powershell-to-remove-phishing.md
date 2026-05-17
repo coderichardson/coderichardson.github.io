@@ -32,8 +32,7 @@ However, the commands given here (especially the purging of emails as admin acro
 Start-Process "iexplore.exe" "https://cmdletpswmodule.blob.core.windows.net/exopsmodule/Microsoft.Online.CSE.PSModule.Client.application"
 ```
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijXy-5ALMDt30O4_Z4XAxRxj-b6chPgsxrgmAZQ9LATXtrqVJG0swZ4QRNLxz3SnD_pPOa-z8Ptmxsa7Be6U2BZrdvksrjbDkye-rpNOprddWa3iTCP8CHnTSNbjHyKX6l6DlMZyX-gx4z/w640-h62/EO-Module.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijXy-5ALMDt30O4_Z4XAxRxj-b6chPgsxrgmAZQ9LATXtrqVJG0swZ4QRNLxz3SnD_pPOa-z8Ptmxsa7Be6U2BZrdvksrjbDkye-rpNOprddWa3iTCP8CHnTSNbjHyKX6l6DlMZyX-gx4z/)
-
+![](/assets/img/posts/use-powershell-to-remove-phishing/01.jpg)
 **Search & Purge**
 
 Launch the newly installed Exchange Online Remote PowerShell Module from PowerShell.
@@ -44,8 +43,7 @@ explorer.exe "$env:appdata\Microsoft\Windows\Start Menu\Programs\Microsoft Corpo
 
 A separate PowerShell window will appear -- your Exchange Online Remote PowerShell Module.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqSKIbsbnvyxt3gXZCrw3cU1YdUDIUCkI3gTVGWLVgBsVUA3z-O2WlrNk0Iuozu4nuJRMhKn_WoDADhyz1WSLDbj_eg7S-8pie-xqX_G1Xnqzx9ky0icGuqi1KDyDUsu5JYbbC8VFihF5E/w640-h148/EO-RemoteModule.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqSKIbsbnvyxt3gXZCrw3cU1YdUDIUCkI3gTVGWLVgBsVUA3z-O2WlrNk0Iuozu4nuJRMhKn_WoDADhyz1WSLDbj_eg7S-8pie-xqX_G1Xnqzx9ky0icGuqi1KDyDUsu5JYbbC8VFihF5E/)
-
+![](/assets/img/posts/use-powershell-to-remove-phishing/02.jpg)
 Connect to Office 365.
 
 ```powershell
