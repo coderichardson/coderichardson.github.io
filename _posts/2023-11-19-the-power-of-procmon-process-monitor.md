@@ -34,17 +34,13 @@ Alternatively, you can select **Go To Event** and the chosen process will be ju
 
 ## Event Properties - Process and Stack
 
-|  |
-| --- |
-|  |
-| Event Process |
+![Event Process](/assets/img/posts/the-power-of-procmon-process-monitor/06.png)
 
-  
+*Event Process*
 
-|  |
-| --- |
-|  |
-| Event Stack |
+![Event Stack](/assets/img/posts/the-power-of-procmon-process-monitor/07.png)
+
+*Event Stack*
 
 Two areas I use less often but that provide interesting detail are the Event Process and Event Stack tabs. These tabs provide the associated modules and the thread stack of a process, respectively.
 
