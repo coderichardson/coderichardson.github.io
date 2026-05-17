@@ -21,7 +21,9 @@ This is a recipe for disaster and why so many people's accounts are compromised 
 
 I completely agree with Troy Hunt in that the [only secure password is the one you can't remember](https://www.troyhunt.com/only-secure-password-is-one-you-cant/). For 99% of your passwords, I recommend a password manager. [Paid](https://1password.com/) or [free](https://pwsafe.org/), it doesn't matter (as long as strong encryption methods are used). You can then have your password manager randomly generate a 32 character password for you that you don't have to worry about remembering. The only passwords you will have to remember are your computer login and the master password to your password safe.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3dl_8_oVRa_j1sOX1LRrBDpqKTLIa_FyIhKNJ-mcrsl0ubxnVrtU8ZhC4-B_O1r9fS0811VEOI74MT1jmuS-pBnG4HITmTiVdmXSgnOX93ishKdM89yLS58uHhqu5WY-sJ7QmY7-SyaEf/s320/password-safe-entry-gallery-100251074-orig.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3dl_8_oVRa_j1sOX1LRrBDpqKTLIa_FyIhKNJ-mcrsl0ubxnVrtU8ZhC4-B_O1r9fS0811VEOI74MT1jmuS-pBnG4HITmTiVdmXSgnOX93ishKdM89yLS58uHhqu5WY-sJ7QmY7-SyaEf/s1600/password-safe-entry-gallery-100251074-orig.png)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL0Lt_lddHXDnB4my5T4Xeh8yYFcnuuVOf5T-pnPJcQcHYWMmVx3R8SBv48Q7-eaPdpSp0fC_k_h-ku20QssxXpzNKNMrAjewzi0NXdpMQSRi5O4OWhRDtG2_Hh7HBK6X2mtcH226o86cb/s320/passwordsafe-1.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL0Lt_lddHXDnB4my5T4Xeh8yYFcnuuVOf5T-pnPJcQcHYWMmVx3R8SBv48Q7-eaPdpSp0fC_k_h-ku20QssxXpzNKNMrAjewzi0NXdpMQSRi5O4OWhRDtG2_Hh7HBK6X2mtcH226o86cb/s1600/passwordsafe-1.png)
+![](/assets/img/posts/account-security-psa/01.png)
+
+![](/assets/img/posts/account-security-psa/03.png)
 
   
   
