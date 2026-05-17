@@ -58,4 +58,4 @@ I've included a simple diagram below which shows where Network ACLs and Security
 
 These features are your "bread and butter" for blocking unwanted traffic to or from sections of AWS. They're also important to keep in mind while troubleshooting any communication issues in your environment.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7eYlSrHdSSUDb0P9DiFX5bh2m4ZlXYpcg7tfhDWt-9L8oKMwfkO6dU8s3jbz73nxfRlN6jrsbCeZSKYysg4C3t6UrJ4oy1Q4qQeGp2o60h8JX_HA0_S0TPJuiukAfpw3tdtrS-JA__0u/w640-h432/AWS_SG_NACLs_Diagram.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7eYlSrHdSSUDb0P9DiFX5bh2m4ZlXYpcg7tfhDWt-9L8oKMwfkO6dU8s3jbz73nxfRlN6jrsbCeZSKYysg4C3t6UrJ4oy1Q4qQeGp2o60h8JX_HA0_S0TPJuiukAfpw3tdtrS-JA__0u/s831/AWS_SG_NACLs_Diagram.png)
+![](/assets/img/posts/aws-security-security-groups-and/01.png)
