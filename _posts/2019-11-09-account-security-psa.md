@@ -6,10 +6,9 @@ tags:
   - "Authentication"
 ---
 
-|  |
-| --- |
-|  |
-| Most common passwords 2018 |
+![Most common passwords 2018](/assets/img/posts/account-security-psa/04.jpg)
+
+*Most common passwords 2018*
 
 #### Making a Secure Password
 
