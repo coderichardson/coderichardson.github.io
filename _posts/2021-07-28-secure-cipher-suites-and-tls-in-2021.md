@@ -6,10 +6,7 @@ tags:
   - "TLS/SSL"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3sQvbtlAOvDZWK8Pgzjr3JJejCIEP5lw-GDftLnkZzkwPLbCJYkoW1f3VtQ108BMPjT15T7Tw1OuF1VJTMzJ9zb4YNmnljHKBoKDvSmMWZDjw_0w2RNIHcH9E4TGvg_upg43MXLcacFBQ/s16000/tls-cipher-suite.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3sQvbtlAOvDZWK8Pgzjr3JJejCIEP5lw-GDftLnkZzkwPLbCJYkoW1f3VtQ108BMPjT15T7Tw1OuF1VJTMzJ9zb4YNmnljHKBoKDvSmMWZDjw_0w2RNIHcH9E4TGvg_upg43MXLcacFBQ/s582/tls-cipher-suite.png)
-
-  
-
+![](/assets/img/posts/secure-cipher-suites-and-tls-in-2021/01.png)
 ### TLS
 
 As of writing (July 2021), there is really only one widely supported, secure protocol for establishing secure communications on the Internet -- TLS 1.2.
@@ -45,10 +42,7 @@ This means that all of the following are technically acceptable ciphers, but som
 
 The ciphers given in NIST documentation also aren't the only ones used. For example, these ciphers Google Chrome v92 uses to negotiate with [clienttest.ssllabs.com](http://clienttest.ssllabs.com):
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiXNGPjPHNXDXarFye-bC1S_9aC-pQa_f-fVHAThyphenhyphenX3LqDGOoLP0THr7pxtJ1FKOy3UIJelYbHglyMCM_aGQl3fx4Ho__ctLKDvwYGOLqQZRfpwLC1FSW5mrPKXSBKBxExOAL3WweUjb9g/w640-h382/2021-07-27+20_44_18-Window.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiXNGPjPHNXDXarFye-bC1S_9aC-pQa_f-fVHAThyphenhyphenX3LqDGOoLP0THr7pxtJ1FKOy3UIJelYbHglyMCM_aGQl3fx4Ho__ctLKDvwYGOLqQZRfpwLC1FSW5mrPKXSBKBxExOAL3WweUjb9g/s1144/2021-07-27+20_44_18-Window.png)
-
-  
-
+![](/assets/img/posts/secure-cipher-suites-and-tls-in-2021/02.png)
 You'll notice CHACHA20 and POLY1305 listed (used for encryption and MAC respectively). NIST may not have adopted these, but [tests so far](https://eprint.iacr.org/2007/472) indicate they are secure (not to mention fast which is why they were adopted -- specifically as a stream cipher for mobile devices where AES computations are expensive).
 
 By default, Windows 10 fully patched in July 2021 [still allows NULL cipher suites](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903) (cipher suites that don't perform any encryption of the data but provide authenticity and integrity checks) among other insecure cipher suites. I'll be covering how to disable these and restrict usage to secure cipher suites in a future post.
