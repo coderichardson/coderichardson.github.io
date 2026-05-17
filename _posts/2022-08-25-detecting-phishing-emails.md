@@ -6,8 +6,7 @@ tags:
   - "Cybersecurity"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiemazsbJQSBY5kawdl9mAxPENRcqueqEJOSJCnLUQwK-FirfSCC0EKBXLQ9YeOMV_2ExXQqcY8SGgMeucTjHalHBqgSMI5F2eH5Koi3f9tJFIixbU_lArogXV5UqOpxEi012cLRjvtlDJOrIZ9nkb02yLMKZDh_U8e_MnpPM1JTvs3woOEh1gozoTb6Q/w640-h426/istockphoto-1078729656-612x612.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiemazsbJQSBY5kawdl9mAxPENRcqueqEJOSJCnLUQwK-FirfSCC0EKBXLQ9YeOMV_2ExXQqcY8SGgMeucTjHalHBqgSMI5F2eH5Koi3f9tJFIixbU_lArogXV5UqOpxEi012cLRjvtlDJOrIZ9nkb02yLMKZDh_U8e_MnpPM1JTvs3woOEh1gozoTb6Q/s612/istockphoto-1078729656-612x612.jpg)
-
+![](/assets/img/posts/detecting-phishing-emails/01.jpg)
 Detecting and preventing the effects of phishing emails has become a primary interest for enterprises and governments today. Often because phishing emails lead to network breaches, ransomware, and exfiltration of sensitive information.
 
 Patching vulnerabilities, ensuring AV/EDR/XDR is installed on endpoints, network segmentation, and MFA are all great to do, but one step we can take before relying on these measures is ensuring the end-user community is routinely educated on how to detect phishing emails.
@@ -23,8 +22,7 @@ Here are some of the items on what I call my "initial phishing screening checkli
 - Was I expecting an email like this?
 - If I know the person and/or can reach them by phone, can I confirm it is them truly sending the email? (Out-of-band communication).
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq5jux5YX05YCDGWYAHjy_X51MjG7qTFPUMyiEU86aBAeas7PWoXUiFt-Yf5fVjtA4l0N5LrrjWbBg_ZOPZKA1sZpc7vSBJaxgyyuIC-em-TIVTB__yLs_UsI8qGp8S6nljbfVpTgFLye9_NIIh00xi4krJYmRjw9E40QorsQyyR9wx6ixmHXIvhHh7g/w640-h389/phishing-attack-email-example.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq5jux5YX05YCDGWYAHjy_X51MjG7qTFPUMyiEU86aBAeas7PWoXUiFt-Yf5fVjtA4l0N5LrrjWbBg_ZOPZKA1sZpc7vSBJaxgyyuIC-em-TIVTB__yLs_UsI8qGp8S6nljbfVpTgFLye9_NIIh00xi4krJYmRjw9E40QorsQyyR9wx6ixmHXIvhHh7g/s795/phishing-attack-email-example.png)
-
+![](/assets/img/posts/detecting-phishing-emails/02.png)
 At least on this one they give 24 hours not "this needs to be done immediately or you will lose access!"
 
 Know that no single one of these is a fool-proof method of detecting a phishing email. Or even if all of these "red flags" are present it could still be a legitimate email. With these types of indicators detecting phishing emails is part art and part science.
@@ -39,10 +37,7 @@ Without additional hints like an [external email banner](https://o365reports.com
 
 So let's dig a bit deeper.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDHHkH3FHq3TUPJxO16Mj_iKsGaZgwcJiQRaKZDDy7wlx4t5_U7UZj3uEUx-DbYJMCCbyeZc8NyX0Hhi3222fg7yRvPEc3mkgl_NLBOvNyimmrHtubEeVQVApE1w8lbegCgT8XEfdpw-slG8QMyKJk_dMjiopDJtq94DQRgNSOp7sRg4dkiWcxvZymIg/w640-h410/email_envelope_vs_email_header.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDHHkH3FHq3TUPJxO16Mj_iKsGaZgwcJiQRaKZDDy7wlx4t5_U7UZj3uEUx-DbYJMCCbyeZc8NyX0Hhi3222fg7yRvPEc3mkgl_NLBOvNyimmrHtubEeVQVApE1w8lbegCgT8XEfdpw-slG8QMyKJk_dMjiopDJtq94DQRgNSOp7sRg4dkiWcxvZymIg/s482/email_envelope_vs_email_header.png)
-
-  
-
+![](/assets/img/posts/detecting-phishing-emails/03.png)
 The three components of an email are (1) the SMTP envelope, (2) email header, and (3) the body of the email.
 
 The **SMTP envelope** is similar to the traditional envelope that someone delivering your mail would see. It contains a record showing who the email is from and who to send it to. As this gets passed along from mail carrier to mail carrier (or SMTP server / mail transfer agent in the case of email), that's all that needs to be seen to know where to deliver the piece of mail.
