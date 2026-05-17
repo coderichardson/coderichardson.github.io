@@ -46,7 +46,8 @@ jobs:
           bundler-cache: true
 
       - name: Write build info
-        run: echo "commit: ${{ github.sha }}" > _data/build.yml
+        run: |
+          echo "commit: ${{ github.sha }}" > _data/build.yml
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
