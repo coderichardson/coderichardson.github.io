@@ -5,10 +5,7 @@ tags:
   - "Career"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN9EBdiHnFD9r8A23GJLvxrk5xWzq_VXes50dLysEytxrt2bmw6nJ30pxNw7oEtFVJozKH0FugCyVbnKr5w16adUH1TiT9rwgFA0aIjO0woiFEhHJILGxtQt4pdmW2jtLHY3TmsCE_R3mfALe93gDGhHddfyyGnEQoesw9ZHTVlFpy6T4hDaTOtXknlaiV/w400-h266/productivity-stock.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN9EBdiHnFD9r8A23GJLvxrk5xWzq_VXes50dLysEytxrt2bmw6nJ30pxNw7oEtFVJozKH0FugCyVbnKr5w16adUH1TiT9rwgFA0aIjO0woiFEhHJILGxtQt4pdmW2jtLHY3TmsCE_R3mfALe93gDGhHddfyyGnEQoesw9ZHTVlFpy6T4hDaTOtXknlaiV/s540/productivity-stock.jpg)
-
-  
-
+![](/assets/img/posts/productive-habits-in-tech/01.jpg)
 I'm often trying to find ways to be more productive with my time or more efficient with what I am already doing. I've found several suggestions over the years -- some that have worked and some that have not -- and want to share them here. Most come from a mix of sources and I will do my best to give credit to the original source.
 
 ## Time Efficient
