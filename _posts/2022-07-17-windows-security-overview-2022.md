@@ -6,10 +6,7 @@ tags:
   - "Cybersecurity"
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPRikAUHAVpVGgCvsH46tp_QN8FjUwVnCFGYIOirLMe-XoTP8waHGOjyaWUjjO2b6ifo4NTs3R3msLopXekBQJIFVGvti4_s_8Wxs4bZYZBB9nFtrRdj9us_XPrafhDL8jYRGt06itags6-lMI0rnLiXEPGFPenP0SJKXELTnwG3vRSTsEVs1w_n-oHg/w640-h360/win10_wallpaper.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPRikAUHAVpVGgCvsH46tp_QN8FjUwVnCFGYIOirLMe-XoTP8waHGOjyaWUjjO2b6ifo4NTs3R3msLopXekBQJIFVGvti4_s_8Wxs4bZYZBB9nFtrRdj9us_XPrafhDL8jYRGt06itags6-lMI0rnLiXEPGFPenP0SJKXELTnwG3vRSTsEVs1w_n-oHg/s3840/win10_wallpaper.jpg)
-
-  
-
+![](/assets/img/posts/windows-security-overview-2022/01.jpg)
 In terms of security, we've come a long way since the days of Windows XP. Even compared to your typical Windows 7 Enterprise install just a few years ago there have been huge security advancements in the industry and specifically within Windows. Here is an overview of some of those improvements, and if this series is popular enough, I may do a deep-dive on some of the individual features in the future.
 
 ## Secure Boot
@@ -30,10 +27,7 @@ Windows then verifies the subsequent steps in the boot-up process such as driver
 
 The Windows Security app was introduced in Windows 10. It consolidates management of several components in prior versions of Windows and adds additional features as well.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHpB88AboEd2Eb5cTAVRmSR-KnA8czgFHmTGu_RN3GFcUNvVUDAdHRegxZfT9sWmm3KbIpfjsj9Y1oZJqfmaJcNnXOo70T88Bfs3ACgbStzQcdEg6I2Og2CIKvk7u8_lNqba_1IGdyzoKdEuAGFK3y_p1_FvBHuLsUImuPc_O41SckAGAqzpWa5pd3MA/w640-h566/2022-07-17%2017_13_04-Windows%20Security.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHpB88AboEd2Eb5cTAVRmSR-KnA8czgFHmTGu_RN3GFcUNvVUDAdHRegxZfT9sWmm3KbIpfjsj9Y1oZJqfmaJcNnXOo70T88Bfs3ACgbStzQcdEg6I2Og2CIKvk7u8_lNqba_1IGdyzoKdEuAGFK3y_p1_FvBHuLsUImuPc_O41SckAGAqzpWa5pd3MA/s1039/2022-07-17%2017_13_04-Windows%20Security.png)
-
-  
-
+![](/assets/img/posts/windows-security-overview-2022/02.png)
 Specifically, in the Windows Security app you can manage Windows Defender (Virus & Threat Protection), your Microsoft account (Account Protection), Windows Firewall (Firewall & Network Protection), and new features such as App & Browser Control and those found under Device Security.
 
 #### Windows Defender
@@ -50,8 +44,7 @@ Much like other areas of Windows 10 though (and Windows 11 as of this writing), 
 
 Because of this, Windows Firewall largely works the same as it has for years. Rule creation is relatively straight-forward with options to enable/disable based on the network type your system is connected to.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigYQdqMFvVZBZMSZhRayICvjhOu54VK6YS2iEJrDvHBrjiv1Amp6sKOhSZTYOsKQYEHA9JXfIZGie5JAGQ2mmF9hUXsbhF4nSeLMbDcpu23SJVfkMSPRxTwPyg-nR5BqP-Bk4jR42rQpl7mUvt8noA1_Tp9smiDMfegveZtG0KFUuHJzgO_nFGh_My1w/w640-h480/2022-07-17%2017_17_42-Windows%20Defender%20Firewall%20with%20Advanced%20Security.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigYQdqMFvVZBZMSZhRayICvjhOu54VK6YS2iEJrDvHBrjiv1Amp6sKOhSZTYOsKQYEHA9JXfIZGie5JAGQ2mmF9hUXsbhF4nSeLMbDcpu23SJVfkMSPRxTwPyg-nR5BqP-Bk4jR42rQpl7mUvt8noA1_Tp9smiDMfegveZtG0KFUuHJzgO_nFGh_My1w/s1047/2022-07-17%2017_17_42-Windows%20Defender%20Firewall%20with%20Advanced%20Security.png)
-
+![](/assets/img/posts/windows-security-overview-2022/03.png)
 #### App Control
 
 App Control (Windows Defender Application Control / WDAC) is Microsoft's latest protection against running malicious software, or for enterprises, software a company simply doesn't want run without permission from the IT departments. It is an improvement on AppLocker.
@@ -60,14 +53,12 @@ Rules for software can be based on code-signing certificates (similar idea to Se
 
 On personal systems the reputation checks alone are a great, free additional layer of security.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbOekpPMa2fkUw9aK5YTuwPS2NaWXHi4GFUnHe32vh7dPteov8wy4_4ec8MFqKFnCNEWVs1I7wmIdEqwPFsYrYQlw7nK7h_T9qx4GX15C8qb5_zlw0jg0Ryb8diu66WM7wRrXQ14LLPGD_8zzz4RDgFAEOiF4IqPYuFTHDd4KINDPLgdPphyXuVWctiQ/w640-h530/2022-07-17%2017_30_20-Windows%20Security.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbOekpPMa2fkUw9aK5YTuwPS2NaWXHi4GFUnHe32vh7dPteov8wy4_4ec8MFqKFnCNEWVs1I7wmIdEqwPFsYrYQlw7nK7h_T9qx4GX15C8qb5_zlw0jg0Ryb8diu66WM7wRrXQ14LLPGD_8zzz4RDgFAEOiF4IqPYuFTHDd4KINDPLgdPphyXuVWctiQ/s1030/2022-07-17%2017_30_20-Windows%20Security.png)
-
+![](/assets/img/posts/windows-security-overview-2022/04.png)
 #### Device Security
 
 Under Device Security you can confirm that Secure Boot is enabled, but this section also allows you to enable features such as *Memory Integrity* and verify your system has a Trusted Platform Module (TPM) and it is in use. More information on these topics can be found [on Microsoft's website](https://support.microsoft.com/en-au/windows/device-protection-in-windows-security-afa11526-de57-b1c5-599f-3a4c6a61c5e2).
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRyJihsSv9dJp-EnWQUF06Z4AxZuUDb2VcKmcbcQ55MSRn5yuTqq5GouzJn7UJa2fale7nDE0zEo6OIw8FSG8LaSFuZP3JH39BKlONeuQ8MIV25YTWEm6uAJ4qDaR79aKeFlVKBAmmf-7g91GOSWbl6NJ8rMI_7e8MriGWOB0YEMAtgzt_NTkJ8gu0bQ/w346-h400/CoreIsolation_SecurityProcessor.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRyJihsSv9dJp-EnWQUF06Z4AxZuUDb2VcKmcbcQ55MSRn5yuTqq5GouzJn7UJa2fale7nDE0zEo6OIw8FSG8LaSFuZP3JH39BKlONeuQ8MIV25YTWEm6uAJ4qDaR79aKeFlVKBAmmf-7g91GOSWbl6NJ8rMI_7e8MriGWOB0YEMAtgzt_NTkJ8gu0bQ/s599/CoreIsolation_SecurityProcessor.png)
-
+![](/assets/img/posts/windows-security-overview-2022/05.png)
 ## BitLocker
 
 BitLocker provides drive encryption to secure your system given you are running Windows 10/11 Pro, Enterprise, or Education.
@@ -78,8 +69,7 @@ BitLocker supports a variety of methods for authentication, encrypts the drive u
 
 Details on BitLocker deployment can be found [on Microsoft's site](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-basic-deployment).
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWNDSMHf0iOIzc84YObXPfExhi5QJFiUkkuP5mRHtvQT-SJBabxFyMqxssI6LhXxV-NBBKgMlM1Tg5eUFFV9goz7WhKJ3NInYvEvXMeXI5ztyz-eoT8OMJdYbHGTmXvRwAOla6LqYY6rgy47wbVRJgLQNAJPD5xev7FMG4UlCXv6HztWdcKy7GfIGd4Q/w400-h245/bitlocker1.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWNDSMHf0iOIzc84YObXPfExhi5QJFiUkkuP5mRHtvQT-SJBabxFyMqxssI6LhXxV-NBBKgMlM1Tg5eUFFV9goz7WhKJ3NInYvEvXMeXI5ztyz-eoT8OMJdYbHGTmXvRwAOla6LqYY6rgy47wbVRJgLQNAJPD5xev7FMG4UlCXv6HztWdcKy7GfIGd4Q/s627/bitlocker1.jpg)
-
+![](/assets/img/posts/windows-security-overview-2022/06.jpg)
 ## Conclusion
 
 Some honorable mentions I didn't get into here are things like [Windows Hello](https://blogs.windows.com/windowsexperience/2016/10/31/windows-10-tip-how-to-set-up-windows-hello-on-your-pc/), [Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard), and [recovery options](https://support.microsoft.com/en-us/windows/recovery-options-in-windows-31ce2444-7de3-818c-d626-e3b5a3024da5) available in the Windows Recovery Environment.
