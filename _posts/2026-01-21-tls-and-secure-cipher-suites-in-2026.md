@@ -10,7 +10,7 @@ tags:
 ![](/assets/img/posts/tls-and-secure-cipher-suites-in-2026/01.png)
 ### TLS
 
-It's been 4.5 years since I last wrote about the [state of TLS and secure cipher suites](https://blog.codyrichardson.io/2021/07/secure-cipher-suites-and-tls-in-2021.html). A lot has changed in that time including some updates around TLS and cipher suites, so I wanted to provide an update while it has been on my mind.
+It's been 4.5 years since I last wrote about the [state of TLS and secure cipher suites](/posts/secure-cipher-suites-and-tls-in-2021/). A lot has changed in that time including some updates around TLS and cipher suites, so I wanted to provide an update while it has been on my mind.
 
 First and foremost -- TLS 1.3 is gaining ground. Qualys' SSL Labs shows that even as of June 2025, [75% of sites surveyed supported TLS 1.3](https://www.ssllabs.com/ssl-pulse/). This is great news, and I look forward to continued adoption of TLS 1.3 and it eventually becoming the norm. I will link again to two fantastic Cloudflare blog posts that explain the details and benefits of TLS 1.3, but I am looking forward to the following changes in particular:
 

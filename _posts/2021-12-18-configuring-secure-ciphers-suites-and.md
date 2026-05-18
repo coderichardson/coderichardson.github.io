@@ -7,7 +7,7 @@ tags:
   - "Windows"
 ---
 
-Hey everyone, today we're back on cipher suites. If you want a refresher of TLS and secure cipher suites overall, check out [my previous post](https://blog.codyrichardson.io/2021/07/secure-cipher-suites-and-tls-in-2021.html).
+Hey everyone, today we're back on cipher suites. If you want a refresher of TLS and secure cipher suites overall, check out [my previous post](/posts/secure-cipher-suites-and-tls-in-2021/).
 
 There are many instances in which you'll need to edit cipher suites on a system -- compliance efforts, CIS benchmarks, or simply ensuring your system doesn't use insecure suites. There are a few ways to go about this and I'll detail two of them now: IIS Crypto and the Windows registry.
 

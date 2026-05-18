@@ -77,7 +77,7 @@ hashcat -m 1000 -a 0 -o /home/cody/Desktop/cracked_secrets_ntlm.txt /home/cody/D
 ![](/assets/img/posts/hashcat-cracking-md5-and-ntlm-hashes/06.png)
 *using a wordlist to crack ntlm hashes*
 
-We can see that the NTLM hashes were also successfully cracked! This a perfect example of why [everyone should use a secure password](https://blog.codyrichardson.io/2019/11/account-security-psa.html).
+We can see that the NTLM hashes were also successfully cracked! This a perfect example of why [everyone should use a secure password](/posts/account-security-psa/).
 
 ![](/assets/img/posts/hashcat-cracking-md5-and-ntlm-hashes/07.png)
 *secure_passwords_ntlm.txt successfully cracked using rockyou.txt wordlist*

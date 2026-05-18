@@ -47,7 +47,7 @@ You'll notice CHACHA20 and POLY1305 listed (used for encryption and MAC respecti
 
 By default, Windows 10 fully patched in July 2021 [still allows NULL cipher suites](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903) (cipher suites that don't perform any encryption of the data but provide authenticity and integrity checks) among other insecure cipher suites. I'll be covering how to disable these and restrict usage to secure cipher suites in a future post.
 
-Edit: Here is the future post (<https://blog.codyrichardson.io/2021/12/configuring-secure-ciphers-suites-and.html>).
+Edit: Here is the future post ([Configuring Secure Cipher Suites](/posts/configuring-secure-ciphers-suites-and/)).
 
 ### References
 

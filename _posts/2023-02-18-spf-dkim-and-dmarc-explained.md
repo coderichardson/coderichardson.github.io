@@ -133,6 +133,6 @@ DMARC only cares if SPF **OR** DKIM pass. If one fails and the other passes, DMA
 
 ## Summary
 
-SPF, DKIM, and DMARC are great additions to RFC 733 and are extremely useful tools in verifying the legitimacy of emails. They're one of the first things I check when [detecting phishing emails](https://blog.codyrichardson.io/2022/08/detecting-phishing-emails.html).
+SPF, DKIM, and DMARC are great additions to RFC 733 and are extremely useful tools in verifying the legitimacy of emails. They're one of the first things I check when [detecting phishing emails](/posts/detecting-phishing-emails/).
 
 If you have any questions or want me to cover any specifics of SPF, DKIM, or DMARC let me know!

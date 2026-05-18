@@ -24,7 +24,7 @@ Whether it's Google Authenticator, Microsoft Authenticator, Authy, Duo, or count
 
 ## Strong (and Unique!) Passwords
 
-I've previously written about [how to make a strong password](https://blog.codyrichardson.io/2019/11/account-security-psa.html). One word I failed to mention then and will include now is **unique**. If there is only ever one change you can make to improve your security -- just make every password unique.
+I've previously written about [how to make a strong password](/posts/account-security-psa/). One word I failed to mention then and will include now is **unique**. If there is only ever one change you can make to improve your security -- just make every password unique.
 
 If you have one strong password and use it everywhere, odds are one of those sites are going to be compromised and they're not going to be using the best hashing or storage mechanisms they could be. Ultimately this leads to your unique password being cracked more easily or even worse, in plaintext, out on the Internet despite your best efforts to make a strong password.
 
@@ -56,7 +56,7 @@ Operating in this fashion has multiple benefits, the greatest of which is that i
 
 As mentioned earlier, something that is often the culprit of even high-profile hacks is social engineering. The best way to do this is to verify the identity of who you are dealing with. This is especially true for those that email or call you. Email accounts are frequently compromised and used to impersonate the true owner, and phone numbers are spoofed on caller ID. Not only that, but with answers to basic information about a person, customer support representatives can authorize you as the owner of an account. Just look at some of the recent [SIM swapping attacks carried out](https://www.bleepingcomputer.com/tag/sim-swap/) (including the SEC account hack mentioned earlier) -- they're popular for a reason..
 
-While there are several technical controls to help verify the authenticity of someone emailing you, some of which [I've detailed before](https://blog.codyrichardson.io/2023/02/spf-dkim-and-dmarc-explained.html), there is nothing like picking up the phone and calling a known-good number. This can be true even with senders you frequently converse with. You never know when someone's email account will be compromised.
+While there are several technical controls to help verify the authenticity of someone emailing you, some of which [I've detailed before](/posts/spf-dkim-and-dmarc-explained/), there is nothing like picking up the phone and calling a known-good number. This can be true even with senders you frequently converse with. You never know when someone's email account will be compromised.
 
 It's a bit more difficult when you are a company needing to authenticate those that call into your business. Most companies are bad at this, some are abysmal, but just a handful I've come across are pretty good. To be clear, I'm not saying I have the answer that everyone should follow -- far from it. I empathize with the balance between security and ease of customer service for most businesses. Sure, you could make customer verification accurate 99.9999% of the time but introduce a ton of friction on the road to delivering good customer service.
 
