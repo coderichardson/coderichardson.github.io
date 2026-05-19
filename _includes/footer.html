@@ -17,15 +17,7 @@
       <em class="fst-normal">{{ site.social.name }}</em>.
     {% endif %}
 
-    {% if site.data.locales[include.lang].copyright.brief %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-        {{- site.data.locales[include.lang].copyright.brief -}}
-      </span>
-    {% endif %}
+
   </p>
 
   <p>Disclaimer: All content on this site, including opinions expressed, is my own and not that of my employer.</p>
